@@ -1,0 +1,4224 @@
+{
+  "schema_version": 1,
+  "blender": "5.2.2 LTS",
+  "frame": 38,
+  "template_file": "north-carolina-detailed.blend",
+  "sha256": "31f25f0d68a8aceb6653636bbfed4b46d79dcba15c2d26d7d6bed178a2d4c26f",
+  "file_bytes": 124738506,
+  "appearance_signature": {
+    "meshes": {
+      "NC_Waterbody_1": "9ae7a50cc8dfe04840724dbac452c168e751b61118895fa183d6dc92054840d1",
+      "NC_Waterbody_10": "9c419ed11f8b9803b45de19469660abb49df87e8eaf9bb3173519ca927bd2e76",
+      "NC_Waterbody_100": "d69dbed855d753f84a097471556784608aac5182566055ecce3640ea9ff023c7",
+      "NC_Waterbody_101": "d55dce0f8f6853e0f712cec39a2e959784595aa6c520fb2930e58e999c59a928",
+      "NC_Waterbody_102": "855354dd9e409e97d76a6384d908a843aa9a733e3527ba6fcc95ccca28e95afa",
+      "NC_Waterbody_103": "74bcf3ab7e12ce1e97d7e1bef36ec4f78a3dfde491f8db12c336567e5b479b47",
+      "NC_Waterbody_104": "c0b76ab81ed33a27292033298df2f9ce50b0146c12a0709fb809b1bd95670e6e",
+      "NC_Waterbody_105": "69006471c71e3822a6825ad4e1a3d6777039bb3bd4fd857e273d36d1f391e093",
+      "NC_Waterbody_106": "3206b6f8568b0e74e3211c23fe41a260488b34ee95540ee0685934b67d3d72f1",
+      "NC_Waterbody_107": "2857ee5ba12f5d65fd4cb22243c97e2c4570338b99d9df43303f6ea4fdad85ab",
+      "NC_Waterbody_108": "78a136b6ed6d34ae399e5fcbaa995e351ad7bf92af318897f9a0059653963190",
+      "NC_Waterbody_109": "6fcc3996200149a68f47830c55b8e26240fd29ec6335eda368910681486b5382",
+      "NC_Waterbody_11": "60c7e4f7e31481d48b687f59effaccf535ef050d33fd34a704404bb4d1e347b1",
+      "NC_Waterbody_110": "5e5a933dd804fca0f113274daaa1ffaca1c039fbcc69217008793703897c5677",
+      "NC_Waterbody_111": "e0a27867831f34b3b97003cd2e764d5781e8a5c7c96a84c33e64399a3af42db3",
+      "NC_Waterbody_112": "e8bf205b52678aacba02f8b75ed04002ea92e6b53d12d600d615fa7a5ad1e82f",
+      "NC_Waterbody_113": "c64047f3e10435f5085b0247d2dcc42d513b1d40edbc390a0e996ef117fab0d3",
+      "NC_Waterbody_114": "8edf4b0c3ab628926f137d9c4dff020198b5afc0f5124961b4e581e848a53420",
+      "NC_Waterbody_115": "0fbf94854e66515bd5df34b9f8b19e1c9cf8440eff3dfed78377e022cad4480a",
+      "NC_Waterbody_116": "aebdaecbde434c2a5841a2fa95fe538c1ae5cc307e966d33e298dfc3e3c20162",
+      "NC_Waterbody_117": "48752a970f1d2925a74056c880fe26be8d8990db0ab02f0f0ab5930a5e610964",
+      "NC_Waterbody_118": "cc4c860a5e07d8925d7b915af378038a64d9f7c16b70544310c10dfc871c13dc",
+      "NC_Waterbody_119": "8c4e2ab9df2270283dca4981cedfcea2ed43917e8be65be2723c4dc7adb8cd66",
+      "NC_Waterbody_12": "8331d14fdb2886254aa1b93fa03acf16d824496e14927a27eb9d09eef92eba5f",
+      "NC_Waterbody_120": "20aed1f4e54fe01f4d7bba5753f275f0abd0f3ce47fb44179a021ed15055c739",
+      "NC_Waterbody_121": "84c2b59077fd9d86f5b7d1a49223a065f4c862c706fe7b70084f68dd988c2dde",
+      "NC_Waterbody_122": "4a4a95ebfce7fcead8a4529cd1372aaed9f6c08e47262baa9effc886a2323ccc",
+      "NC_Waterbody_123": "8829c8717cb0a60326cc63379092591f5405402c052bd3e0bb1734b896bae942",
+      "NC_Waterbody_124": "8cfbd2a0e966adf806f1f4e0da542236766b8ad95c2b8ca79102ab78b8755458",
+      "NC_Waterbody_125": "d17e7f2d9b689b1811e6a9bc63af05fa59145f9a7575b477c70133f1c702750e",
+      "NC_Waterbody_126": "79c04ef5742df6341cc83d2b325cae2201288663ff61fb99c2315ed87c2f8a1d",
+      "NC_Waterbody_127": "578afaea73f2c582604c37f7b218c2341b82ebb5d8584135aeda7bc3931d3f5b",
+      "NC_Waterbody_128": "7685aad6b6bfe040d7786a4f7b738c3e3189732e707f0790e852face3b6d50d6",
+      "NC_Waterbody_129": "71a20380da8e71c46bf8a57b968c285ecc2f0a54651d570ce3f94648663bdfad",
+      "NC_Waterbody_13": "8ae90582a739b5f50a3c17676c13167a43e7510e948fd8bf8e3a06fe4332bbf8",
+      "NC_Waterbody_130": "9eb42ed8ff7ff35d2a0df2e1637031a37929614e833bab67e185887d4263bcdd",
+      "NC_Waterbody_131": "d814f18b37d05a1e031dfd2c684816b2701875a751950dbe4b8cb4f396fc19f7",
+      "NC_Waterbody_132": "36421d2e7ac4c865f086584bc6c6ec53dfc2256201742d5e070ac6b728397194",
+      "NC_Waterbody_133": "1b68ace975aa6c769e3c9e83e3f1b0fac588f2447654680942cb4fc9c76a211a",
+      "NC_Waterbody_134": "71aa42edfe86e5df8c415c598a1d16a5f6f061cdb82d8512245eda70f0ce6a50",
+      "NC_Waterbody_135": "7ce8d3a9c631093f1464a59f7c2954a622fa7b1cf96310fc68a3b2bbf6e7beb4",
+      "NC_Waterbody_136": "6ba5c8e84912701b16533e9aba822869dc17b254351660864d9d03477af45224",
+      "NC_Waterbody_137": "9c3f0e73cde26ae42c5dfc5b35ed91af7dfea79c3ad84a71fbdfbf78d65d4801",
+      "NC_Waterbody_138": "8c79a79fd3cf5b13f783ed4c3427686ec68e2544eb33101ec04c38c802679797",
+      "NC_Waterbody_139": "6762018bbabfb66d7ab71f900fe0c164f5dc1cd0d3a2022d830c0b28bf631f2f",
+      "NC_Waterbody_14": "9bf63b47b70eafa7cf00d45cb800aa3b82c8cfdada8a0e5c81e95ae450874d0d",
+      "NC_Waterbody_140": "fea6276a25fe189a7048686ee8ae763a57026d5eadf2645d41b3cb4bc2be6354",
+      "NC_Waterbody_141": "fe34386dd46214c69e81fd97197fb39a2fa8e008295a5a2007b9889a8aa4ef17",
+      "NC_Waterbody_142": "03781e365072e69f9fb6a0c204e582be2faaeb9455c29c2c822b29611639f300",
+      "NC_Waterbody_143": "20a09892b6aab3da8807af9d2d481bc790eb366900a2f9e5715dcfde284126bc",
+      "NC_Waterbody_144": "e297c6302576e8f6819941d66888f8b4b5c9c7fe3c8273826e31ed61b814073a",
+      "NC_Waterbody_145": "32d56d5ad3ac6c7ff7b7a02a2439d890cca7b61231054898db5394d838123b8c",
+      "NC_Waterbody_146": "8b096d83dd48606fe2e0257d8f62ddb7b32be78270733f1fb04acc446767bea6",
+      "NC_Waterbody_147": "ea9b2db42a91bac92735344dc28e171a5177cea03352df03be0e9ed8470e6365",
+      "NC_Waterbody_148": "b812fe25cb97600fe0fb3a458dbdb72df2a5cc784e8b9d7233da9c7b60405434",
+      "NC_Waterbody_149": "48670b31662a6caffbe2aea6291e0016625ec237966ddc26eea7cb4cc40b3675",
+      "NC_Waterbody_15": "47fd3d05041255064123e64bc0544a5b4cb3e4131eca7cefdb090ec61b27433e",
+      "NC_Waterbody_150": "2a9f656ea3c59c21e2710007f9c681e9e07219047e67711db4c572de80d0ab9f",
+      "NC_Waterbody_151": "eede2f27bc1349c67e46b4d4cd1b706951c4c00d054a429523509eeac2c2d535",
+      "NC_Waterbody_152": "c6b009ff77beff8933f7056cf429c1c84733002757b40e307535fd694cd66839",
+      "NC_Waterbody_153": "853d36f39d6d597080c583815323acb287418600f2e10f14fa7edf9827635493",
+      "NC_Waterbody_154": "1320ced625765a5d836c608a932e4892958bf05cefff0fc22133b06d6b80d980",
+      "NC_Waterbody_155": "62d0ff045ded56d71078c1ea72ff30c6da8ea85fbce334a2bc3996f3a685eca1",
+      "NC_Waterbody_156": "270e7baaf57714d5477ca26e038e8bbd519bd93f74fc510de041dce502a868c5",
+      "NC_Waterbody_157": "6083ad2d20b2b2f2a54033662b2fcc985f65fa58950446abdd5c9fbcee8bf227",
+      "NC_Waterbody_158": "235c2a821f2ffc281ed2ba82987d9ecc500c4a0b31cf1c7dce8af52d4e68f601",
+      "NC_Waterbody_159": "0cb3e74e922ae57e580047a9bdc1424024e0904a7f33d137ed2fd633e0740154",
+      "NC_Waterbody_16": "692fb2d588f1ff8985670648171874c1684030e12fd8155bd846dc3bc8fd5dcb",
+      "NC_Waterbody_160": "c727c3e2b761ae7e6203623257f33286ed9f6c62fb2c2e629b49414824e2ece2",
+      "NC_Waterbody_161": "b3778d0a22ea4c6bcbc1e55c787c9229620baaf1d72ebe6f1696c81b8420cf8c",
+      "NC_Waterbody_162": "7d7447f72c6995640665e55c3e98cf7daa13d1c7156a0197ca801da756c7e5fa",
+      "NC_Waterbody_163": "1646fc4877cb5ee4980a8d9e9b880782e6b8675f02efe6a3a5facb768929d99d",
+      "NC_Waterbody_164": "017e010fbfd5e0623bf6798916b14c47267f8cc9783d295ab91c4c01d3b8a518",
+      "NC_Waterbody_165": "da885b241d0f6e4e3aebf898a8d11efca51223f32e935b6f3ecc766a1f89a0f5",
+      "NC_Waterbody_166": "b8b4eb60e4c65c65f725aa0092d36870e90d70b2dbaddf65b999f3ef94351ab6",
+      "NC_Waterbody_167": "4ad8a5722cacaf037295159c96752c3ea4ec9279c48b7bac012c3235e567e427",
+      "NC_Waterbody_168": "24713673e71a624e879ed23754e31ccbb96c38162a5682c07bc63b14c6c31e97",
+      "NC_Waterbody_169": "3272d1b729815ccece65daf13c30a9d747ed706c249187d83d3bad226a820c01",
+      "NC_Waterbody_17": "3dbc66f6ac41d8845cd073bde8ea6a8d84905b48c6f220b16fcd36ce7ddb06f7",
+      "NC_Waterbody_170": "3a8c4242db49b656d1f2606f56950f47ace8464c3ad3f6c092588daf76ec7f97",
+      "NC_Waterbody_171": "fb426f9f9e8d8930eef61544441e1756fcf7df56609147688e6c31157319830c",
+      "NC_Waterbody_172": "add90741f786f8cfed52cde15d7e4373ef86f15e0ca2c3cdf09b1f37f53b0123",
+      "NC_Waterbody_173": "88cccbc271a1ab4a6480a860b10c3ddae2b7e8ab4cbb62ed655a5da25e32aab5",
+      "NC_Waterbody_174": "07ef1c0d20f13ab211644b9c9b6cd11d5cb85dfa1c4fa3f51f7a3666ae411eb8",
+      "NC_Waterbody_175": "fa2ff5d888c744ca619a71e6556abb140837037bc2622f845e571848acf6fd0e",
+      "NC_Waterbody_176": "61c098ea04feb7508ffcf4c794595e1ff72acb15eebaaff07114a5fd76b89839",
+      "NC_Waterbody_177": "78ec5db40f72141dd681c2b556b214f9bc9119f001906fb8a056eda5e21cfdad",
+      "NC_Waterbody_178": "02b661a0bad92e80e102a4797f3ac01701607ed21e5590637dbb4ff15ae2d416",
+      "NC_Waterbody_179": "7361577c04b6c04ba82b0579b07f2d42ed7168109c8a7594eb8166a4ba3213f4",
+      "NC_Waterbody_18": "2639f7feb45194d4f43986f24acedd1c1b43ceeb30f84443a4322defd4ec8301",
+      "NC_Waterbody_180": "09300d964d53419c6d57c7458e975d61b2f126b47e9b347428c05e6285dd08c5",
+      "NC_Waterbody_181": "bf1cec73b319a3db2f267d5436d6774e0de19b6ff12bf7e7842bc447d4348643",
+      "NC_Waterbody_182": "941633145b1800cf71633b6d24cec1f7388f1e9a61fbccae562a0dfb5f1e23c3",
+      "NC_Waterbody_183": "7acc9cae1ee25cd63b22dd10d433ab6169f6dc8dcab9b7b115e477ab4ccf7c0f",
+      "NC_Waterbody_184": "64794dce8e0e011e52c275a1d86cda2bc94905a42ea0e6cbc959a19249868a5c",
+      "NC_Waterbody_185": "fe76b94ed4b0afef03cd3b0121056b0a519b091031abfccd97287f670068fe6f",
+      "NC_Waterbody_186": "57ed9d29923414637f47845b37fc6cf5c52817d2912c7b4dadb413c1e16fc448",
+      "NC_Waterbody_187": "2bb7b625261923c0276c0aad0da5d82465476b7828c2ac1e240680cadb0d26f7",
+      "NC_Waterbody_188": "26bf92c64ffa598b2dff8ea4d023bc205db0b91e1005d213adb3d1e744e8900e",
+      "NC_Waterbody_189": "c5b44efdcc6f1c230ee4114ef6bdc0a0a2d255ba81a118350c87b6c124ae09e9",
+      "NC_Waterbody_19": "572b242572f785b1efa41f6eaf7a1f730e264d1d0e30d525e4112a6b1ac6251b",
+      "NC_Waterbody_190": "770b45a2778e03010cc02b513d334907b11d7675fa893359b39d9d135056a80f",
+      "NC_Waterbody_191": "72b242ea5b00cb0590a7ef0df7e9566ab0a93f362d98c217df32ae4a29a22888",
+      "NC_Waterbody_192": "e3973a6f3f11e2986fd6d26ca0fe5f1bd64a3b181a307f692bc3ed8f4422b57c",
+      "NC_Waterbody_193": "617095e1f2cd93d97109da1a0e498e24e9060c786f4c4da43432975ebec9fcf7",
+      "NC_Waterbody_194": "6a1ff7a1a4a09eec6f3ddaec23c6264e6c5d8bb9c20ec4825bff5e01650edea5",
+      "NC_Waterbody_195": "d0ae8eaf44d6f16f95f395cd90715349a3a051d878e950776de6d95255c891c0",
+      "NC_Waterbody_196": "91b5ddd4ebff2cdb75bbaf8ee992e086344d00f085677e6223d771bfed30d33a",
+      "NC_Waterbody_197": "932523334a2b8b7cf367b41c8cb0737ab421293a4a94e0cc4336e77ab65d1625",
+      "NC_Waterbody_198": "26da65c2c2b91a4922b5fe4300e75d793790320307cdb79c53de5171e539a9cc",
+      "NC_Waterbody_199": "bff12ab281fb4199ed5ac4f3403a91a89a3621fe0c54bc39de71959102f69716",
+      "NC_Waterbody_2": "186cb4f7a50fa9942fc1ffd5ca7c0cdd9b77ba604da4bdec9536452638ac538c",
+      "NC_Waterbody_20": "a12005678b7fe7305f789cb1ba3fdbc35032a77940d68ef54e398302858cd3ed",
+      "NC_Waterbody_200": "91fad6c249fb54e639887f30ba557926e4831e6b357359553353c88a317a335c",
+      "NC_Waterbody_201": "dcbaf9455e0d3d809bcca2ad1f83706a6b55a6ff5546679cca0df636e422b91c",
+      "NC_Waterbody_202": "ace2dbdbe42f56331d29a9320a18a55a656a5e5ef0a328657d3b215a078cc295",
+      "NC_Waterbody_203": "ac185135de2625e85543cb6db51841a27fd6e09b7e73c400d46154e3e4397704",
+      "NC_Waterbody_204": "879296b1f50e8f3f116042642f28cef6b480d77d525aa536d5b7575b18b8c494",
+      "NC_Waterbody_205": "842dcc4caf5e0590bf913e8ed2eed3544fe5783e25925f14d7c9ad9779db9014",
+      "NC_Waterbody_206": "ec1186e5aaf7e16328718954c7ae6c6ff03c1120501536cffed06f800ab2c355",
+      "NC_Waterbody_207": "55d09079bb636e55fcac6343f53d4657296866c1922a0537c95acc5ba0c2995c",
+      "NC_Waterbody_208": "3be4cb206399d13926452c2479d3ffb38bac54bb422695cdc86fc2dffa601d02",
+      "NC_Waterbody_209": "5710fc5dcf79d66701730a6604335d9a71ed21970fe56b158eb9d15dd85016e2",
+      "NC_Waterbody_21": "8935f801f08fbc3eba5a28de9ccc91bf4493031d91f9927efdf4172e9be85785",
+      "NC_Waterbody_210": "eef08eb57d5458e5db532ba984bf4a111584701505332bb0926a2eef638b9933",
+      "NC_Waterbody_211": "cf0df740e6b727f601823a651c2a8945adb75e89ad6ccc45471e600b0d07e618",
+      "NC_Waterbody_212": "9fee98a92820379f1feb7520191e3111bbfe6d5f07e140d6f32be281a73fbaee",
+      "NC_Waterbody_213": "07f05b99f33025c9113804ee1d52db95a5643f1becbd373d9f6e444bb65fbb21",
+      "NC_Waterbody_214": "b46bec9faee7fe9b5652d3191b86b06a5cbef5e3c22cd0dc626de753ac3b8379",
+      "NC_Waterbody_215": "dc78a87cc97ae2a4cf0a86dda6f03fc06b7dfbe8ba2b1f45fc3c3c354df1ec5b",
+      "NC_Waterbody_216": "eabd0f4b1729cf33c9337e7d5a2da0e27b3baf5ed7800665521571ccc0fbe901",
+      "NC_Waterbody_217": "9aa1a5432dc6c094ee2ea4758ccf409b42dda3b4740e743e43f7449c22e7d204",
+      "NC_Waterbody_218": "c610c7d278b545cc606d7e14ad13a8e6fb8c7fcc6204ade869daddccb18f2a78",
+      "NC_Waterbody_219": "e0670e7d075286a7fa7755bf8a304502b177f718ce3c742f464d80ff50ea0707",
+      "NC_Waterbody_22": "bc4af4dd3f0bdb551043231d52a91bd7d7193436a9dd6fb8b15c41c9dd5c7a8b",
+      "NC_Waterbody_220": "73487c9360390291749810e85d3933f0430e6aa5ba3a7e646b315f65b9f336d8",
+      "NC_Waterbody_221": "5ba558e49169cda339ab6c5c1ace887f9ea177de3c639566c2f6e00c4c4bc289",
+      "NC_Waterbody_222": "06f6ccc692e2b74088bb2a68c9d546235c39620e32e450157b17e6ea706b8052",
+      "NC_Waterbody_223": "593967812e6ef1fe45abb056c89b4e9e8417f6f82d22169e6592cc43f93fea0a",
+      "NC_Waterbody_224": "1f0ac67f3fbaec798e355a2a568f49938981a988d804c384bf4aa00141ec1139",
+      "NC_Waterbody_225": "64e16acd8d40f053b5c9f5aaadf32ec413ed25513606f432079ff4f8e5576520",
+      "NC_Waterbody_226": "a7fbf09f2fbd2d164df628acb46aabd8a927c7d843bdc075e32545b908175fe5",
+      "NC_Waterbody_227": "6f23a30fc448630bf1f2eec9c208c69c7c0297a5be233e691ea9fb285256ae5d",
+      "NC_Waterbody_228": "942e3ef67053e5e482a886b2aa2bcbca70caf052c06a079b2e728ce45cadbbdf",
+      "NC_Waterbody_229": "b914943af9f0f0736b397d9a86ef9c9ada0ed0e5576f7ce69bcb80384e915ea5",
+      "NC_Waterbody_23": "65b883467c2bd802cb554b7e3309f177b9ddbe29b67aa65e9430fc16158c2f96",
+      "NC_Waterbody_230": "1abde46f773080142699f5f19c1b849f5d177ef7e57b6238593b5241c5b80cda",
+      "NC_Waterbody_231": "9c8ffd9bbd369cb29a4dee8f8b81d40a85c67aad80e61ee475ce02d90675842f",
+      "NC_Waterbody_232": "117790e76c43d105f737af33e206edf241f70d57f4f9c502c6e7412a5e89ac74",
+      "NC_Waterbody_233": "01b359e29e89726cb5e84505ffad59ff55c20958add14a56a514aa59aba5bc8a",
+      "NC_Waterbody_234": "cf2511fee769839b062e2d734945eeddf1344b9f0c35c318f78823e76baba927",
+      "NC_Waterbody_235": "92a75b8dd56d910ef0930ae746b94a4c3f2f7750bd1f2314ba28350491bb7666",
+      "NC_Waterbody_236": "a28b42a17ce2e2990786931daef6675a8cc2f595b81db19921e9ea27bad0f778",
+      "NC_Waterbody_237": "624c3d6768cfe7ebcad504003e66a1a466efdd6ceeef392c5788fce1e09a0e98",
+      "NC_Waterbody_238": "d0e9e9ade66b76ac5a8e8e51272fb19a27d42b0b2f4b4b2edb2ae7795815bbc8",
+      "NC_Waterbody_239": "91290b15c7aa9abac26e7b8b1498e3b17ae8a418d2a7465545a06dfec763e995",
+      "NC_Waterbody_24": "f42162ba217fc81a7019e384e003577816671ffe895291c3fd268d36c13033a4",
+      "NC_Waterbody_240": "48469cd9bdf7f2429e4cfa1861792fde027e40d8edb3cdd81e75f9d9f7acb329",
+      "NC_Waterbody_241": "bf64f310366f3bef466438f2425d649e1fb0e8fa03a23e0285c7d8c6cc30f347",
+      "NC_Waterbody_242": "adc089762b3f0eea57fdb47ab9ac9a5f9590b94752ad6712c5a122281279f58a",
+      "NC_Waterbody_243": "9e3b63962cde66a60e619574fc5e104db8f1528380974d9bc5522e40f8c8ba88",
+      "NC_Waterbody_244": "f5578f2db6eb132a5e3a3e2d16a8a492f3fa407b73c1ddc82bac4b567e9e2abc",
+      "NC_Waterbody_245": "c668fbc8a8cb2ab8c68e9002f014b419d7173a21dce38eb7958ab08080c19539",
+      "NC_Waterbody_246": "b9dfc5590889fa194604ad02a60f4292e424d76ec25c18a439d6d4f48c51090f",
+      "NC_Waterbody_247": "9779d7f56a0fe62c1d3c8c1325becbecc00da954b0c0d56afcab82b9ffe6891d",
+      "NC_Waterbody_248": "c872fc7ed82ce549153a64603638171d36b3d4c98d068925e659c1efbc7ccb19",
+      "NC_Waterbody_249": "37fad4c8d3709c9131eb70333df44f067427110b36dbba61d48c208ebfe1bd4b",
+      "NC_Waterbody_25": "7092f53dad23281a7461cfbebf8f5cf7d5e8f8d76e30b55efb9fa1aaa2e28b5c",
+      "NC_Waterbody_250": "8ba424af63b4b0e83bbd6515283ef31e83c31541dddffa9cb398ec98d86e1583",
+      "NC_Waterbody_251": "9a325fa5e0c2c22614c7793b7497ad40e38eb370c78f225fbab9693364bd03f6",
+      "NC_Waterbody_252": "081af1101d217ae25d0c56d90ca82b745725e34c343d9ad728c74ee4fd55254f",
+      "NC_Waterbody_253": "2587caa217c393100e92e9a0353fd24e4a9aba7d63fc159bc76ced3818c5786f",
+      "NC_Waterbody_254": "0fca2944c78bdb03f064ad9fa7564fa18f8b80072a03dfa99cb3ff507b23c1b5",
+      "NC_Waterbody_255": "94ce8dd28740dd183e8488b732d34fe775f2b6c8dc64515de7abbc58ab85b3bb",
+      "NC_Waterbody_256": "9b7461b5e18f51e4ad54438242adfe5275ffdea396ee2d43aa57d8aca05c034d",
+      "NC_Waterbody_257": "35fdd22e2fb249dc0e7f76865867892defc27617f6a91cc3b62a33ca86cafaaa",
+      "NC_Waterbody_258": "ff0c604bf474abc767ff964e5531b2cf24d339acde537c9cef95d1ad082bc028",
+      "NC_Waterbody_259": "55936d5f34badc53bec58e6d2ac6b4d76a3e5deb5e5c22a053778ae1aabd6a55",
+      "NC_Waterbody_26": "e2967c89b61dbb249b8bb1f52854694eeaf11c94adefabd5ce0c632853ee7468",
+      "NC_Waterbody_260": "b301796c361ee552c49b3548f990ce55ea79d02555fb93d7184e937449a712e5",
+      "NC_Waterbody_261": "edb2d9804c902b3afc38b85cda0987a5fb4e85df46d0630f0bbf7f48cec7c377",
+      "NC_Waterbody_262": "4c34b8dd60ec51c65774a8994027be8ee73115263c41378649b35b49ed0f470f",
+      "NC_Waterbody_263": "7a75e86a13f8b037755fd18ff5e47e0c5cb5ee805735f210a184c0e8e16ab1f5",
+      "NC_Waterbody_264": "32bfa5da698b0b7c7ff567edae56c18d40d8b13d28de18a4147c03ff8ee8a84f",
+      "NC_Waterbody_265": "2c0356bc3805887cf80dcbf3a568160534e52dfe9436982aac7af9bd37113014",
+      "NC_Waterbody_266": "e72b07929f98c1b00842efa54bc2035f459067069ab4975832f7362fdb767fbe",
+      "NC_Waterbody_267": "ed9332a0f829b8cec467ed372968a5385aee0a71f3b53d0d54a84e402b44c43c",
+      "NC_Waterbody_268": "135da737967814f169159ef311cfda3ac2d7c372a7db519958d35480871ceed7",
+      "NC_Waterbody_269": "975ad62c56b10613cdf6ba237f64f56e2789580bd55efcf38abbc0757ea997b8",
+      "NC_Waterbody_27": "f442d724b178d678115913d8666d2971b62f49c3baa39eab2c744558c0eeeaaf",
+      "NC_Waterbody_270": "c092860a6ed024674288741a27656442eb22d69b02f1eeb02030fc645950d537",
+      "NC_Waterbody_271": "2a606d71d9e5ffee51ab86bbfe71bbfc0eeae101ded947d07c3121bba226ea27",
+      "NC_Waterbody_272": "4ac918e0e432ebf5b9111ea99bfe25599f437831996c8021a94c0dd38e3e07c9",
+      "NC_Waterbody_273": "6c4537e9397609609c8540e28edd2203f92b968a399ece76e563d7238b3c0325",
+      "NC_Waterbody_274": "1c69adac2b097f803b1516cf964aa8bf088fa06502fee8d2f4b495efadca4772",
+      "NC_Waterbody_275": "eb41963db32b1dfc09741c5eb6b0e686f6a58c549419b3dda7a5d9a6cd3fd868",
+      "NC_Waterbody_276": "5da705ac1494a38cb3fc89f8f9b9f95fd13f1d217e9c1a7d84153807544fd05b",
+      "NC_Waterbody_277": "181bf19d8c40720e5027023928251a0078c509c7d702682c8451ec76887cbe16",
+      "NC_Waterbody_278": "6c5551ffbf0e107383968ff6cd066ec82961f216fe07355372876059a0837f19",
+      "NC_Waterbody_279": "a93a62c50093dfe23b63a1171cd9d8850858dd7b6fb31e7ed9e054869b822ab2",
+      "NC_Waterbody_28": "79d98368064bd2ad776ef95a36799937a4ede2cd65fa043353954cdd5d273019",
+      "NC_Waterbody_280": "6dc7eb18904c43d472f98a1c83927249beb1a4d6ef188ca34eb3226b54e82c39",
+      "NC_Waterbody_281": "557245527ade24ef1ee015e908230585a3e0c28aacd52aa8bbd5e9b017a47ec5",
+      "NC_Waterbody_282": "2047663978e418825672f13b4796c5bba3905b190025dbfe10bfc2fbd4e7cce8",
+      "NC_Waterbody_283": "bb78033b9a1fbda00f0e963f700279944b0528ab47267a09a9658e20a839e709",
+      "NC_Waterbody_284": "fc2f4750ce65b2eb2ae3bafd566d6f6c14ab86f2a7aaf9ebbce8d72af3b5817b",
+      "NC_Waterbody_285": "95eea32d024afba0d89d85061836f309b31f986b3ac9a7eff0bb92bffd427bdd",
+      "NC_Waterbody_286": "7d354464f236b030389f732eea573d2689939808e72dd32d43f569f9a4477575",
+      "NC_Waterbody_287": "04e8310d047ed737d3fcfb080f3e1aa001c14df0ab0e681cc315937cd8101fa5",
+      "NC_Waterbody_288": "113a60d2a9e9b4955a9575be810683215dc4d5d0f3d36db68b5ed5a2b9310cde",
+      "NC_Waterbody_289": "628b76bf206c9590af27774b17b410a0995a569baf5f988f8f5085a67fd441ae",
+      "NC_Waterbody_29": "74e4475be02b6b19e8fc2b3452703c442d4902b710e7c12e813f8d1a953d7235",
+      "NC_Waterbody_290": "0e4d7997944639146151b3ab1b5092a6f654bde3198305773c811de98077e03f",
+      "NC_Waterbody_291": "0a5f06486e0f5a5929350e3a65d837677d8555ac8812465928f86aa404e11d62",
+      "NC_Waterbody_292": "a1dcbfbb499f759ee60997a721052340947c9aedb2ac718fc5fe4dc05fa17127",
+      "NC_Waterbody_293": "efe7fb09350749f5de360fe1370373fe6daee69bb0cfa7fb6e265b0f89f1e132",
+      "NC_Waterbody_294": "f42363d9cbcc9718cc3c59f945a0754de09db6dea558ea5aae6d8c5254d1f094",
+      "NC_Waterbody_295": "c26952d519e13ca2b9dde808ffe23b421285c703c0011f483bb4c013ec8143b0",
+      "NC_Waterbody_296": "13585813c860daf418f03e4415a73086651c6ead407378fb0b0d94f81c582724",
+      "NC_Waterbody_297": "df4e04ae34f224cd4feaefe78dea96db2662b8ac053bb51e6aa66078107bee6d",
+      "NC_Waterbody_298": "3c066b62d2ce4dac271cc72b1b2ed16b8cb35ae078823d88c8d865ede7a8b620",
+      "NC_Waterbody_299": "e71a56138dae329303f063ffdfe439ff1d4e7983a019f071a6a4efc8a67b90cd",
+      "NC_Waterbody_3": "f4b89a6238b58872770cfe7f759d5388ad8cceea5e9704e3070af30d44cac8e6",
+      "NC_Waterbody_30": "d5d4bfc740c83be9fb0955b80bfa64ff6822bcc00f34fd8bb89a08a7b69688f0",
+      "NC_Waterbody_300": "6b76305306ca9996194d8e56b23630ec2ec675f0284e43608842d6314a40dfa9",
+      "NC_Waterbody_301": "9fe53b5c79f335bef7e09677cdd4666be0b372fb7d4cc790af934e807d79ef07",
+      "NC_Waterbody_302": "ec5e5ae70b978c6112f048ba47fa8683e2ff66f149c3016df8accd7a324b40f6",
+      "NC_Waterbody_303": "39f25c913c4a5f2262574171428eb78416d1e0e1d4d4a27e1f165876b4c66c9d",
+      "NC_Waterbody_304": "fb813a044a4e209f83b9ecce65aa7e821b1025f06424390b336fd23bf2454f62",
+      "NC_Waterbody_305": "edb4aab48c90679d94dc2089f808f7f3734242074678abaf489c2b6aa0457700",
+      "NC_Waterbody_306": "b0156cd2621c99fb2dd4027a42966b9bae1ec77a2d3532e5f76142087cfe229b",
+      "NC_Waterbody_307": "54262bdf664481bb36977233349a5797a5808ea34b1571730de8e4b3f2ba5840",
+      "NC_Waterbody_308": "65675beffa60a349a65521287685d68130c43f05fdf03e6454215fefe92fa9e9",
+      "NC_Waterbody_309": "874a3658f3fcc1418dd004b1dbe68f64d4858f6869b7b33f631dce8cfd8f39ff",
+      "NC_Waterbody_31": "ee1748dd201dfd895588d71cf46d34cb0f42714aa7245e5606675f4a4b4604d6",
+      "NC_Waterbody_310": "85c6dbee9c74397ad5fd68f28e2217cd42290c6921b7c2d0308d2c894b232ef0",
+      "NC_Waterbody_311": "e2c42d93237a2e94adfe2fb1ea4fc320d391efaa2a728210346c020d5a2850ad",
+      "NC_Waterbody_312": "9b90ad4aaf6b907b874116b95d442b3133d7846a152bc4485ff155fad22f1699",
+      "NC_Waterbody_313": "3cbd7f70dcee24fc21783f86013bb8c43682fa1c42b1ecf0e5c6d38b2eda1845",
+      "NC_Waterbody_314": "508c0fec7c4fe4f3ef0678c817a5c377bae849b2b55b569d2e29c0d8f3721ecf",
+      "NC_Waterbody_315": "87506b515d41221691afb8815f40f5121fb59766cf648cb9970278c04c306008",
+      "NC_Waterbody_32": "35022bea5a3ade30dedb42606475a7aad23652144559a0ccd005b0c94253a9e4",
+      "NC_Waterbody_33": "721be0d028568035c717cb8ad215add459f26de7ddce1f6381979b0f5e818f21",
+      "NC_Waterbody_34": "2962892d7b97dbcb6c6e14c72513f59ad722d1fbe5a219b1d612a271280c807f",
+      "NC_Waterbody_35": "21bf6da1bafdac70e5adb9c9b0391f06429bf347928af7d3375f592d890b8dc3",
+      "NC_Waterbody_36": "fda06490fda26992ecfc72cbeb231f6015794269dffb905375b01a6016efad93",
+      "NC_Waterbody_37": "352adb61b25f0d4cf1c2cb49bd8655fc980140e0a21b65192692e1c3d933e758",
+      "NC_Waterbody_38": "0c4cc6c0a7a1c016ebf1532a8ba1ff2c1c80142e00f75ccbb4d5f55d7438ab65",
+      "NC_Waterbody_39": "00052df5736406c95972e2bfe850ef679b78db2002354856f2c6427a46264124",
+      "NC_Waterbody_4": "059b8447a0dad5ef46521cc50fb63ea96ffdabf5eca6d38ac25229a1fcc8a8a0",
+      "NC_Waterbody_40": "1ee308f16a3a22de47c6e2e3b7f5e1568706ec7698dea8529ef1824503386b64",
+      "NC_Waterbody_41": "e223a43ed7cd3c9165247cd1f0ab4c7816d7249eb881921e4be6e2891d023fe2",
+      "NC_Waterbody_42": "d02cbd94cbaf1fc4e18f3d3f956983bbb4830c15a169933817e10f931c651a83",
+      "NC_Waterbody_43": "25be03ec1410ee38a1bdbd4dcd22493f2078822518927ce9b64731cd7e4f1d19",
+      "NC_Waterbody_44": "d0ecb940475042e30584708142593fce23faa3a6d506ed6d243ab7ea4d5097e3",
+      "NC_Waterbody_45": "b902646b2ee166569a179b3d0cf1ee76ba767760b76e633b96d603b969b684a9",
+      "NC_Waterbody_46": "5e3c28298796f2b4ca27730766a9a13426ec3e53bc7010bdd9b73715d8122b96",
+      "NC_Waterbody_47": "cebcf4263b55b3bf6cca4c197a77dc45f051002d47f99d159f87b769c9f329ee",
+      "NC_Waterbody_48": "6d13deedef36c1cacbac900ed2d79208fa1a0608752deeca9c9946d67496965c",
+      "NC_Waterbody_49": "93fbb718b5562d058d649ad01f038f8d2b373a14ca7f79fb910464b3540ff1dd",
+      "NC_Waterbody_5": "37d6a4d17d507697d9bdbc6962426daf4b5e71e134701b7e8ed346dc995cf080",
+      "NC_Waterbody_50": "863de5c84b8e7315904b26bb583dafd51c31bb94ece90182ec4baff1aead9cae",
+      "NC_Waterbody_51": "74ab20d2dec4357f1ac08cf5cb7f8e23242c764fa53c2de2e9522b20002b67dd",
+      "NC_Waterbody_52": "2d1e59e783346d851a037694c2bc5156df38196971f403ba062029bec157800c",
+      "NC_Waterbody_53": "3e20a76d56d748d6345f9b983495fe95116437ed0618d694c8c50eec6700a32e",
+      "NC_Waterbody_54": "274a89ad01f9d15e176cca2d48cd7b005b2a2c851dab75546f6e91c50e46053c",
+      "NC_Waterbody_55": "432a857e9cabd75158bcda1d87a569634a672604379e3842d5a4f1df101ba021",
+      "NC_Waterbody_56": "231f05aa63fd2b5ec795ffc4bd605533cb1c0224af1b6b29c40c16b596d896b6",
+      "NC_Waterbody_57": "07886ea5ad53e8a331076fd522d284504a6be196f9eab9aad386948844f42537",
+      "NC_Waterbody_58": "b5b432c12ed36d3db3bf9ba8d5a776d0fe1b14a3471fa32b04b8ac72d7234fff",
+      "NC_Waterbody_59": "30bf68983dcc78c649ca8c6d386aa4153350c9a232189fed6cfe82cfcf697ff5",
+      "NC_Waterbody_6": "e98c3ab39d191bbd5ad2c0401a4743b6541ad2123d03d7f0b069426db536930d",
+      "NC_Waterbody_60": "a6ec3d036a2ebdae2b1930dbe7f3825a07a2410e7e389a01b113fe7ad336c33b",
+      "NC_Waterbody_61": "3664a30c8958def2fc525b163b761bd4764663f3d3032dc6b9ecc4c67b4dd5a2",
+      "NC_Waterbody_62": "c217c98e388750526431fa02fa72d459ead13ee310a773988747c6c5c7c8a08f",
+      "NC_Waterbody_63": "36a48b17fa91d264c23ea16787a01991bc3f6d24add5499b78319b88d1de3c58",
+      "NC_Waterbody_64": "bccc501d78a7b2cac72d7fcac8ad9476810abb346b80e1a53ff452fb5ece2df6",
+      "NC_Waterbody_65": "05447fd5b13326f18adb8549eb1905bd99fdbbe0a90464eaa899d182970e4c41",
+      "NC_Waterbody_66": "ff82e2207adbfbbeee8e0a8c49796de8529265498949bd338d05ce8d24c85ac9",
+      "NC_Waterbody_67": "566b017d24cb496420c95e3e306642340ec3a5f1468793516c1ce04a160d0ed6",
+      "NC_Waterbody_68": "08708f0ae8b7709c400f2d044deb55ce6c4272f1f0b8b7df526c6c042e162e58",
+      "NC_Waterbody_69": "82c82fd71565bc2afb6e801d38cbde274adb735d4586f14ab148449bbdad0b40",
+      "NC_Waterbody_7": "a73298da17e4c935a386c0e9c97201f6472eb709d1268a7abaa7b2ceaf1d97fd",
+      "NC_Waterbody_70": "d79850c3ebeeffb96ce398e96ae9fc6454255cc776cf008410f3fcabe7fc6701",
+      "NC_Waterbody_71": "cdc59880bc27eb9ebd5f3f5e067c414482358fb113384c5e9feae068f30759c0",
+      "NC_Waterbody_72": "de5767044587da766f93032a84b6a8efe22a068929015dfde89ebc3aa343c7d6",
+      "NC_Waterbody_73": "791b79a1be8e6c3a29e3fdd75823b9a80db6932168ad0436c2f55fc602fcc39d",
+      "NC_Waterbody_74": "de75c8e9c8be4433397fd52b576ff24023c0bbaf95f3f83c7fb97a36ca80217d",
+      "NC_Waterbody_75": "8a9d8ad1a05a040dae23eab0af39671e70240fe33c0803af0e41999c04bf6ab1",
+      "NC_Waterbody_76": "8f5f2cfdabe735d1dd585f507dd5dcb73c66c2ef61059d05b1bb2c35589ff930",
+      "NC_Waterbody_77": "4d0125189965cabf745a56e6b9cd39176f13e78be7be63067be07e92d425fb6f",
+      "NC_Waterbody_78": "691fe399e894e392c12ad4e28344dd1fc307f838f01184458bcc6aaeeafa077a",
+      "NC_Waterbody_79": "66fe363805c86b2cb64f06837fcf30dacd9010daa9f0ba725c23b1c1e102d7a2",
+      "NC_Waterbody_8": "8250a1d9b8eb72b23109eb3a5f2788048cae14145c80c6904c92de37c7f546cb",
+      "NC_Waterbody_80": "c06adb8a085095164adfaade429142cc29079afa722b464d96cae770d39b7196",
+      "NC_Waterbody_81": "da185a330e4113b69cbf59f4183734b7abab46219243e1331043570a1e1b95f0",
+      "NC_Waterbody_82": "80d6694cf59577813d235cb31170903ad3f8fa11dbf2e9b10bad54dd9d696e1a",
+      "NC_Waterbody_83": "8a0efa022531e2469af9026c3f797a2b1401ecc17984d1838556fddc66e6f70c",
+      "NC_Waterbody_84": "33fde454602a78f8094a62dd2879a49d0ab2c7dc6367a9af169d2018ad3b5bdb",
+      "NC_Waterbody_85": "b7bee4d45dddae5ff05d30da1da3b61be0521f79afb25db042b5bad35a791d23",
+      "NC_Waterbody_86": "b8f0a839a2f4c4b95e7276ad6a0e689170b267a9fd485050ad6093d15c3a022c",
+      "NC_Waterbody_87": "4f80a23422479d3ff38087381d2770feed8a081794a87c868a98cbf9a90e473a",
+      "NC_Waterbody_88": "6cc4b548cf60fe6e97fdb4a2fb73a6cafb056245581bae7ea2b7d2a9b6b99def",
+      "NC_Waterbody_89": "edf60baaefb20b92d04340bfc9396a89b9529e3a9c2a4e497e7c7a5893c19130",
+      "NC_Waterbody_9": "004952688879b03e193a35772dcf92669922d2fc33960669056d593411f97149",
+      "NC_Waterbody_90": "c1743917bfead2f44b697947eaaddb9b20787a37f824e3e5bdcabbe2903612d3",
+      "NC_Waterbody_91": "2e502693bfb2653fde4fa4cd6cab4a6dde29951232476c757b958dabf8b7db21",
+      "NC_Waterbody_92": "64541cb2dcc63b3641eb4ded19cbcebfe9cd7d112267c1bd72844ae532efd9ce",
+      "NC_Waterbody_93": "7a16d34d84b30d58aae53b762712c12c2d3bb413bc1da72b59b76a39416b967b",
+      "NC_Waterbody_94": "68ec8e304a359d0e29f5f5deb6826d13135f8e851ad2ec46e419ffd914093697",
+      "NC_Waterbody_95": "8e921bb2f0ba96b461744e341bc7634e61274bccd716cc585248aeb87cd15a9b",
+      "NC_Waterbody_96": "7f1565a945728332715fdb389d4ab0f28af5fc8ffee7e10a69cbb09dfdb74cd3",
+      "NC_Waterbody_97": "0e02d2ce4571743b17d97a9550a605de40766b4f6c92a5a73b3d31e0e40218eb",
+      "NC_Waterbody_98": "4369a61afbc9c3a4013fa05741845442281544cabf50bf23d3e927572b824666",
+      "NC_Waterbody_99": "1ce913952c504ee9080cc1f85147aef038d59c28188b5d2637978ada36f02b06",
+      "Plane": "b8022f869e81bf47fc36663c6e615bf575363daf81f8c66794470da562b372fa",
+      "Sphere": "f4c739ed55c87107fae71d016e4122dfc695f2e53951c52833d92fa9e59cd9d0",
+      "Sphere.001": "aba92e4b57ccaaa92951a760aba5034bce27c8df4e014d5d86960c3d88efb245",
+      "Sphere.002": "f4c739ed55c87107fae71d016e4122dfc695f2e53951c52833d92fa9e59cd9d0",
+      "Terrain controls | one data point": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "USGS_corridor_terrain": "84e13aa9b10968cda9a32ffe54c2b8f3f622939b269c15e202e66bd53fc66da5",
+      "USGS_regional_terrain": "e6e24184adb6a61fc332a6bf9a563e061bff0dee13cba4742d622967869f9745",
+      "USGS_state_terrain": "ba3791a53a3b8b078296af4dc8f5372615eee79c89ae92c5583f2e5e3bbad0d8"
+    },
+    "packed": {
+      "Coast taper | distance from ocean | corridor": "84e25510a67f43456327164eaa4191329bac3bc826f266e9e40d23c7151023ea",
+      "Coast taper | distance from ocean | regional": "63f1fbb39d8b036a21500cfb04b05a3424fc0f0e683ef1ceec5b781b3feaf823",
+      "Coast taper | distance from ocean | state": "16168d0b29de897f1f95a31fa5736984a01fa575531168510efa12a07d9dae63",
+      "Map / Land cover / NLCD 2025 + NWI": "1fb278b650cc019b68c27f12249df4d603b3eb9b689d3241351a3a8e2afa8cee",
+      "Map / Masks / NLCD 2025 + NWI": "07daada59329fe0693a0aa05d4a591972c7cb373c6e95d7e3887e185d0c297d9",
+      "Map ink | rivers | Terrain_corridor_USGS": "438fb5b15dbf2d0f2f7991f3ae05d6453aed97082a5639b20b9ff179e90d347c",
+      "Map ink | rivers | Terrain_regional_USGS": "4c289c060074ed0751f96962765f43f3878470986d17377f9cc3c31d5c3f6450",
+      "Map ink | rivers | Terrain_state_USGS": "ac52e2258e7119724d4fdbeb4ab49034252d2f355326c5209c5abc23443aaac7",
+      "Map ink | state boundary masks | R NC G neighbors": "14e4f1b7873edf4b136601de3b0f7dc4b1052e681f657d88eff5ed59aecc813f",
+      "Terrain depth | USGS corridor height": "ae1592a643adda63b79857cbf4fb41371894fcfc244feea6a2509e149758d0b5",
+      "Terrain depth | USGS corridor relief": "57b2c2947a53b7d78c232b55097d95312688985ae5f664f3c514a83f0c323995",
+      "Terrain depth | USGS regional height": "227180fc4e459b14854779b3df26a31d11c627d057aed9c36b28abc30049910f",
+      "Terrain depth | USGS regional relief": "cf68685b9eb205b93aca516b42c9bd9aa1add91449b59e25a1e4dae31fdd40cc",
+      "Terrain depth | USGS state height": "a5138993a5987f5fdebe47e4d7a4f7d25fbc55d2b33ff5eda571171c8857f144",
+      "Terrain depth | USGS state relief": "aae64a075a4805d2d5f2b332932f9f56c61444049add47b86ac7f57047d3d092",
+      "USGS detail normals / corridor": "87dd114f82e5734e9d91ba34607ecdd1956ef0e8813d678a9dc5dd4e02be8926",
+      "USGS detail normals / regional": "30a0bd955607d4a6170ebd9e1578ea984da1b85c393b3e9cec8d5d07acb1a06f",
+      "USGS detail normals / state": "3a02094ce6ef4f962b4f6ef765121b069db05ae42b30c0bdfa6d5ff680489fff",
+      "Golos Text Medium": "d507a2c045467b478c39a92598861b3af833656df643d1eae5331a4ece14ba04"
+    },
+    "camera": {
+      "matrix": [
+        [
+          0.9995721578598022,
+          -0.02145608514547348,
+          -0.01987871527671814,
+          1.564834475517273
+        ],
+        [
+          0.011534112505614758,
+          0.9136999249458313,
+          -0.4062257409095764,
+          -8.824653625488281
+        ],
+        [
+          0.026879193261265755,
+          0.40582263469696045,
+          0.9135564565658569,
+          19.945655822753906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 60.0,
+      "aperture": 0.75,
+      "frame": 38
+    },
+    "material_links": {
+      "Atlantic / calm ripples": [
+        [
+          "Adjustable color variation",
+          "Color",
+          "Calm opaque water / EEVEE",
+          "Base Color"
+        ],
+        [
+          "Broad ocean color variation",
+          "Fac",
+          "Deep blue to muted teal",
+          "Fac"
+        ],
+        [
+          "Calm opaque water / EEVEE",
+          "BSDF",
+          "Water surface",
+          "Surface"
+        ],
+        [
+          "Deep blue to muted teal",
+          "Color",
+          "Adjustable color variation",
+          "Color2"
+        ],
+        [
+          "Fine surface breakup",
+          "Fac",
+          "Fine texture / 15 percent",
+          "Value"
+        ],
+        [
+          "Fine texture / 15 percent",
+          "Value",
+          "Ripples with irregular crests",
+          "Value_001"
+        ],
+        [
+          "Ripples with irregular crests",
+          "Value",
+          "Subtle water normals / no displacement",
+          "Height"
+        ],
+        [
+          "Subtle water normals / no displacement",
+          "Normal",
+          "Calm opaque water / EEVEE",
+          "Normal"
+        ],
+        [
+          "Wind direction / 25 degrees",
+          "Vector",
+          "Fine surface breakup",
+          "Vector"
+        ],
+        [
+          "Wind direction / 25 degrees",
+          "Vector",
+          "Wind ripples / slow drift",
+          "Vector"
+        ],
+        [
+          "Wind ripples / slow drift",
+          "Fac",
+          "Ripples with irregular crests",
+          "Value"
+        ],
+        [
+          "World position / consistent ripple size",
+          "Position",
+          "Broad ocean color variation",
+          "Vector"
+        ],
+        [
+          "World position / consistent ripple size",
+          "Position",
+          "Wind direction / 25 degrees",
+          "Vector"
+        ]
+      ],
+      "Atlantic / deep blue": [
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE corridor": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "NC mask / corridor relief",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "State normal coordinates / origin",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "NC mask / corridor relief",
+          "Color2"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NC mask / corridor relief",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC / shared state relief",
+          "Color",
+          "NC mask / corridor relief",
+          "Color1"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "State normal coordinates / extent",
+          "Vector",
+          "Outside NC / shared state relief",
+          "Vector"
+        ],
+        [
+          "State normal coordinates / origin",
+          "Vector",
+          "State normal coordinates / extent",
+          "Vector"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE regional": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE state": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "Cape Fear / luminous cyan": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Cape Fear watershed boundary / blue": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "County borders / muted earth": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Fine ivory state boundary": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Lakes and reservoirs / blue water": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Major tributaries / subdued blue": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Map type | soft aqua | 8FCAD1": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Map type | warm parchment | E8DFC6": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Neighbor state borders / subdued ivory": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Other waterways / dark teal": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Type / warm ivory": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    }
+  },
+  "collections": {
+    "01_TERRAIN": 4,
+    "02_BOUNDARY": 0,
+    "03_RIVERS": 0,
+    "04_LABELS": 19,
+    "05_OCEAN_ATMOSPHERE": 1,
+    "06_LIGHTING": 3,
+    "07_CAMERA_RIG": 6,
+    "08_COUNTIES": 100,
+    "09_WATERBODIES": 315,
+    "10_WATERSHED_OPTIONAL": 1,
+    "11_COUNTY_LABELS": 7,
+    "12_DETAIL_CONTROLS": 2,
+    "Archive | raised river curves": 6,
+    "Archive | raised state boundary curves": 5
+  },
+  "terrain_vertices": 1851872,
+  "packed_images": 18,
+  "packed_fonts": 1,
+  "reference_signature": {
+    "meshes": {
+      "NC_Waterbody_1": "9ae7a50cc8dfe04840724dbac452c168e751b61118895fa183d6dc92054840d1",
+      "NC_Waterbody_10": "9c419ed11f8b9803b45de19469660abb49df87e8eaf9bb3173519ca927bd2e76",
+      "NC_Waterbody_100": "d69dbed855d753f84a097471556784608aac5182566055ecce3640ea9ff023c7",
+      "NC_Waterbody_101": "d55dce0f8f6853e0f712cec39a2e959784595aa6c520fb2930e58e999c59a928",
+      "NC_Waterbody_102": "855354dd9e409e97d76a6384d908a843aa9a733e3527ba6fcc95ccca28e95afa",
+      "NC_Waterbody_103": "74bcf3ab7e12ce1e97d7e1bef36ec4f78a3dfde491f8db12c336567e5b479b47",
+      "NC_Waterbody_104": "c0b76ab81ed33a27292033298df2f9ce50b0146c12a0709fb809b1bd95670e6e",
+      "NC_Waterbody_105": "69006471c71e3822a6825ad4e1a3d6777039bb3bd4fd857e273d36d1f391e093",
+      "NC_Waterbody_106": "3206b6f8568b0e74e3211c23fe41a260488b34ee95540ee0685934b67d3d72f1",
+      "NC_Waterbody_107": "2857ee5ba12f5d65fd4cb22243c97e2c4570338b99d9df43303f6ea4fdad85ab",
+      "NC_Waterbody_108": "78a136b6ed6d34ae399e5fcbaa995e351ad7bf92af318897f9a0059653963190",
+      "NC_Waterbody_109": "6fcc3996200149a68f47830c55b8e26240fd29ec6335eda368910681486b5382",
+      "NC_Waterbody_11": "60c7e4f7e31481d48b687f59effaccf535ef050d33fd34a704404bb4d1e347b1",
+      "NC_Waterbody_110": "5e5a933dd804fca0f113274daaa1ffaca1c039fbcc69217008793703897c5677",
+      "NC_Waterbody_111": "e0a27867831f34b3b97003cd2e764d5781e8a5c7c96a84c33e64399a3af42db3",
+      "NC_Waterbody_112": "e8bf205b52678aacba02f8b75ed04002ea92e6b53d12d600d615fa7a5ad1e82f",
+      "NC_Waterbody_113": "c64047f3e10435f5085b0247d2dcc42d513b1d40edbc390a0e996ef117fab0d3",
+      "NC_Waterbody_114": "8edf4b0c3ab628926f137d9c4dff020198b5afc0f5124961b4e581e848a53420",
+      "NC_Waterbody_115": "0fbf94854e66515bd5df34b9f8b19e1c9cf8440eff3dfed78377e022cad4480a",
+      "NC_Waterbody_116": "aebdaecbde434c2a5841a2fa95fe538c1ae5cc307e966d33e298dfc3e3c20162",
+      "NC_Waterbody_117": "48752a970f1d2925a74056c880fe26be8d8990db0ab02f0f0ab5930a5e610964",
+      "NC_Waterbody_118": "cc4c860a5e07d8925d7b915af378038a64d9f7c16b70544310c10dfc871c13dc",
+      "NC_Waterbody_119": "8c4e2ab9df2270283dca4981cedfcea2ed43917e8be65be2723c4dc7adb8cd66",
+      "NC_Waterbody_12": "8331d14fdb2886254aa1b93fa03acf16d824496e14927a27eb9d09eef92eba5f",
+      "NC_Waterbody_120": "20aed1f4e54fe01f4d7bba5753f275f0abd0f3ce47fb44179a021ed15055c739",
+      "NC_Waterbody_121": "84c2b59077fd9d86f5b7d1a49223a065f4c862c706fe7b70084f68dd988c2dde",
+      "NC_Waterbody_122": "4a4a95ebfce7fcead8a4529cd1372aaed9f6c08e47262baa9effc886a2323ccc",
+      "NC_Waterbody_123": "8829c8717cb0a60326cc63379092591f5405402c052bd3e0bb1734b896bae942",
+      "NC_Waterbody_124": "8cfbd2a0e966adf806f1f4e0da542236766b8ad95c2b8ca79102ab78b8755458",
+      "NC_Waterbody_125": "d17e7f2d9b689b1811e6a9bc63af05fa59145f9a7575b477c70133f1c702750e",
+      "NC_Waterbody_126": "79c04ef5742df6341cc83d2b325cae2201288663ff61fb99c2315ed87c2f8a1d",
+      "NC_Waterbody_127": "578afaea73f2c582604c37f7b218c2341b82ebb5d8584135aeda7bc3931d3f5b",
+      "NC_Waterbody_128": "7685aad6b6bfe040d7786a4f7b738c3e3189732e707f0790e852face3b6d50d6",
+      "NC_Waterbody_129": "71a20380da8e71c46bf8a57b968c285ecc2f0a54651d570ce3f94648663bdfad",
+      "NC_Waterbody_13": "8ae90582a739b5f50a3c17676c13167a43e7510e948fd8bf8e3a06fe4332bbf8",
+      "NC_Waterbody_130": "9eb42ed8ff7ff35d2a0df2e1637031a37929614e833bab67e185887d4263bcdd",
+      "NC_Waterbody_131": "d814f18b37d05a1e031dfd2c684816b2701875a751950dbe4b8cb4f396fc19f7",
+      "NC_Waterbody_132": "36421d2e7ac4c865f086584bc6c6ec53dfc2256201742d5e070ac6b728397194",
+      "NC_Waterbody_133": "1b68ace975aa6c769e3c9e83e3f1b0fac588f2447654680942cb4fc9c76a211a",
+      "NC_Waterbody_134": "71aa42edfe86e5df8c415c598a1d16a5f6f061cdb82d8512245eda70f0ce6a50",
+      "NC_Waterbody_135": "7ce8d3a9c631093f1464a59f7c2954a622fa7b1cf96310fc68a3b2bbf6e7beb4",
+      "NC_Waterbody_136": "6ba5c8e84912701b16533e9aba822869dc17b254351660864d9d03477af45224",
+      "NC_Waterbody_137": "9c3f0e73cde26ae42c5dfc5b35ed91af7dfea79c3ad84a71fbdfbf78d65d4801",
+      "NC_Waterbody_138": "8c79a79fd3cf5b13f783ed4c3427686ec68e2544eb33101ec04c38c802679797",
+      "NC_Waterbody_139": "6762018bbabfb66d7ab71f900fe0c164f5dc1cd0d3a2022d830c0b28bf631f2f",
+      "NC_Waterbody_14": "9bf63b47b70eafa7cf00d45cb800aa3b82c8cfdada8a0e5c81e95ae450874d0d",
+      "NC_Waterbody_140": "fea6276a25fe189a7048686ee8ae763a57026d5eadf2645d41b3cb4bc2be6354",
+      "NC_Waterbody_141": "fe34386dd46214c69e81fd97197fb39a2fa8e008295a5a2007b9889a8aa4ef17",
+      "NC_Waterbody_142": "03781e365072e69f9fb6a0c204e582be2faaeb9455c29c2c822b29611639f300",
+      "NC_Waterbody_143": "20a09892b6aab3da8807af9d2d481bc790eb366900a2f9e5715dcfde284126bc",
+      "NC_Waterbody_144": "e297c6302576e8f6819941d66888f8b4b5c9c7fe3c8273826e31ed61b814073a",
+      "NC_Waterbody_145": "32d56d5ad3ac6c7ff7b7a02a2439d890cca7b61231054898db5394d838123b8c",
+      "NC_Waterbody_146": "8b096d83dd48606fe2e0257d8f62ddb7b32be78270733f1fb04acc446767bea6",
+      "NC_Waterbody_147": "ea9b2db42a91bac92735344dc28e171a5177cea03352df03be0e9ed8470e6365",
+      "NC_Waterbody_148": "b812fe25cb97600fe0fb3a458dbdb72df2a5cc784e8b9d7233da9c7b60405434",
+      "NC_Waterbody_149": "48670b31662a6caffbe2aea6291e0016625ec237966ddc26eea7cb4cc40b3675",
+      "NC_Waterbody_15": "47fd3d05041255064123e64bc0544a5b4cb3e4131eca7cefdb090ec61b27433e",
+      "NC_Waterbody_150": "2a9f656ea3c59c21e2710007f9c681e9e07219047e67711db4c572de80d0ab9f",
+      "NC_Waterbody_151": "eede2f27bc1349c67e46b4d4cd1b706951c4c00d054a429523509eeac2c2d535",
+      "NC_Waterbody_152": "c6b009ff77beff8933f7056cf429c1c84733002757b40e307535fd694cd66839",
+      "NC_Waterbody_153": "853d36f39d6d597080c583815323acb287418600f2e10f14fa7edf9827635493",
+      "NC_Waterbody_154": "1320ced625765a5d836c608a932e4892958bf05cefff0fc22133b06d6b80d980",
+      "NC_Waterbody_155": "62d0ff045ded56d71078c1ea72ff30c6da8ea85fbce334a2bc3996f3a685eca1",
+      "NC_Waterbody_156": "270e7baaf57714d5477ca26e038e8bbd519bd93f74fc510de041dce502a868c5",
+      "NC_Waterbody_157": "6083ad2d20b2b2f2a54033662b2fcc985f65fa58950446abdd5c9fbcee8bf227",
+      "NC_Waterbody_158": "235c2a821f2ffc281ed2ba82987d9ecc500c4a0b31cf1c7dce8af52d4e68f601",
+      "NC_Waterbody_159": "0cb3e74e922ae57e580047a9bdc1424024e0904a7f33d137ed2fd633e0740154",
+      "NC_Waterbody_16": "692fb2d588f1ff8985670648171874c1684030e12fd8155bd846dc3bc8fd5dcb",
+      "NC_Waterbody_160": "c727c3e2b761ae7e6203623257f33286ed9f6c62fb2c2e629b49414824e2ece2",
+      "NC_Waterbody_161": "b3778d0a22ea4c6bcbc1e55c787c9229620baaf1d72ebe6f1696c81b8420cf8c",
+      "NC_Waterbody_162": "7d7447f72c6995640665e55c3e98cf7daa13d1c7156a0197ca801da756c7e5fa",
+      "NC_Waterbody_163": "1646fc4877cb5ee4980a8d9e9b880782e6b8675f02efe6a3a5facb768929d99d",
+      "NC_Waterbody_164": "017e010fbfd5e0623bf6798916b14c47267f8cc9783d295ab91c4c01d3b8a518",
+      "NC_Waterbody_165": "da885b241d0f6e4e3aebf898a8d11efca51223f32e935b6f3ecc766a1f89a0f5",
+      "NC_Waterbody_166": "b8b4eb60e4c65c65f725aa0092d36870e90d70b2dbaddf65b999f3ef94351ab6",
+      "NC_Waterbody_167": "4ad8a5722cacaf037295159c96752c3ea4ec9279c48b7bac012c3235e567e427",
+      "NC_Waterbody_168": "24713673e71a624e879ed23754e31ccbb96c38162a5682c07bc63b14c6c31e97",
+      "NC_Waterbody_169": "3272d1b729815ccece65daf13c30a9d747ed706c249187d83d3bad226a820c01",
+      "NC_Waterbody_17": "3dbc66f6ac41d8845cd073bde8ea6a8d84905b48c6f220b16fcd36ce7ddb06f7",
+      "NC_Waterbody_170": "3a8c4242db49b656d1f2606f56950f47ace8464c3ad3f6c092588daf76ec7f97",
+      "NC_Waterbody_171": "fb426f9f9e8d8930eef61544441e1756fcf7df56609147688e6c31157319830c",
+      "NC_Waterbody_172": "add90741f786f8cfed52cde15d7e4373ef86f15e0ca2c3cdf09b1f37f53b0123",
+      "NC_Waterbody_173": "88cccbc271a1ab4a6480a860b10c3ddae2b7e8ab4cbb62ed655a5da25e32aab5",
+      "NC_Waterbody_174": "07ef1c0d20f13ab211644b9c9b6cd11d5cb85dfa1c4fa3f51f7a3666ae411eb8",
+      "NC_Waterbody_175": "fa2ff5d888c744ca619a71e6556abb140837037bc2622f845e571848acf6fd0e",
+      "NC_Waterbody_176": "61c098ea04feb7508ffcf4c794595e1ff72acb15eebaaff07114a5fd76b89839",
+      "NC_Waterbody_177": "78ec5db40f72141dd681c2b556b214f9bc9119f001906fb8a056eda5e21cfdad",
+      "NC_Waterbody_178": "02b661a0bad92e80e102a4797f3ac01701607ed21e5590637dbb4ff15ae2d416",
+      "NC_Waterbody_179": "7361577c04b6c04ba82b0579b07f2d42ed7168109c8a7594eb8166a4ba3213f4",
+      "NC_Waterbody_18": "2639f7feb45194d4f43986f24acedd1c1b43ceeb30f84443a4322defd4ec8301",
+      "NC_Waterbody_180": "09300d964d53419c6d57c7458e975d61b2f126b47e9b347428c05e6285dd08c5",
+      "NC_Waterbody_181": "bf1cec73b319a3db2f267d5436d6774e0de19b6ff12bf7e7842bc447d4348643",
+      "NC_Waterbody_182": "941633145b1800cf71633b6d24cec1f7388f1e9a61fbccae562a0dfb5f1e23c3",
+      "NC_Waterbody_183": "7acc9cae1ee25cd63b22dd10d433ab6169f6dc8dcab9b7b115e477ab4ccf7c0f",
+      "NC_Waterbody_184": "64794dce8e0e011e52c275a1d86cda2bc94905a42ea0e6cbc959a19249868a5c",
+      "NC_Waterbody_185": "fe76b94ed4b0afef03cd3b0121056b0a519b091031abfccd97287f670068fe6f",
+      "NC_Waterbody_186": "57ed9d29923414637f47845b37fc6cf5c52817d2912c7b4dadb413c1e16fc448",
+      "NC_Waterbody_187": "2bb7b625261923c0276c0aad0da5d82465476b7828c2ac1e240680cadb0d26f7",
+      "NC_Waterbody_188": "26bf92c64ffa598b2dff8ea4d023bc205db0b91e1005d213adb3d1e744e8900e",
+      "NC_Waterbody_189": "c5b44efdcc6f1c230ee4114ef6bdc0a0a2d255ba81a118350c87b6c124ae09e9",
+      "NC_Waterbody_19": "572b242572f785b1efa41f6eaf7a1f730e264d1d0e30d525e4112a6b1ac6251b",
+      "NC_Waterbody_190": "770b45a2778e03010cc02b513d334907b11d7675fa893359b39d9d135056a80f",
+      "NC_Waterbody_191": "72b242ea5b00cb0590a7ef0df7e9566ab0a93f362d98c217df32ae4a29a22888",
+      "NC_Waterbody_192": "e3973a6f3f11e2986fd6d26ca0fe5f1bd64a3b181a307f692bc3ed8f4422b57c",
+      "NC_Waterbody_193": "617095e1f2cd93d97109da1a0e498e24e9060c786f4c4da43432975ebec9fcf7",
+      "NC_Waterbody_194": "6a1ff7a1a4a09eec6f3ddaec23c6264e6c5d8bb9c20ec4825bff5e01650edea5",
+      "NC_Waterbody_195": "d0ae8eaf44d6f16f95f395cd90715349a3a051d878e950776de6d95255c891c0",
+      "NC_Waterbody_196": "91b5ddd4ebff2cdb75bbaf8ee992e086344d00f085677e6223d771bfed30d33a",
+      "NC_Waterbody_197": "932523334a2b8b7cf367b41c8cb0737ab421293a4a94e0cc4336e77ab65d1625",
+      "NC_Waterbody_198": "26da65c2c2b91a4922b5fe4300e75d793790320307cdb79c53de5171e539a9cc",
+      "NC_Waterbody_199": "bff12ab281fb4199ed5ac4f3403a91a89a3621fe0c54bc39de71959102f69716",
+      "NC_Waterbody_2": "186cb4f7a50fa9942fc1ffd5ca7c0cdd9b77ba604da4bdec9536452638ac538c",
+      "NC_Waterbody_20": "a12005678b7fe7305f789cb1ba3fdbc35032a77940d68ef54e398302858cd3ed",
+      "NC_Waterbody_200": "91fad6c249fb54e639887f30ba557926e4831e6b357359553353c88a317a335c",
+      "NC_Waterbody_201": "dcbaf9455e0d3d809bcca2ad1f83706a6b55a6ff5546679cca0df636e422b91c",
+      "NC_Waterbody_202": "ace2dbdbe42f56331d29a9320a18a55a656a5e5ef0a328657d3b215a078cc295",
+      "NC_Waterbody_203": "ac185135de2625e85543cb6db51841a27fd6e09b7e73c400d46154e3e4397704",
+      "NC_Waterbody_204": "879296b1f50e8f3f116042642f28cef6b480d77d525aa536d5b7575b18b8c494",
+      "NC_Waterbody_205": "842dcc4caf5e0590bf913e8ed2eed3544fe5783e25925f14d7c9ad9779db9014",
+      "NC_Waterbody_206": "ec1186e5aaf7e16328718954c7ae6c6ff03c1120501536cffed06f800ab2c355",
+      "NC_Waterbody_207": "55d09079bb636e55fcac6343f53d4657296866c1922a0537c95acc5ba0c2995c",
+      "NC_Waterbody_208": "3be4cb206399d13926452c2479d3ffb38bac54bb422695cdc86fc2dffa601d02",
+      "NC_Waterbody_209": "5710fc5dcf79d66701730a6604335d9a71ed21970fe56b158eb9d15dd85016e2",
+      "NC_Waterbody_21": "8935f801f08fbc3eba5a28de9ccc91bf4493031d91f9927efdf4172e9be85785",
+      "NC_Waterbody_210": "eef08eb57d5458e5db532ba984bf4a111584701505332bb0926a2eef638b9933",
+      "NC_Waterbody_211": "cf0df740e6b727f601823a651c2a8945adb75e89ad6ccc45471e600b0d07e618",
+      "NC_Waterbody_212": "9fee98a92820379f1feb7520191e3111bbfe6d5f07e140d6f32be281a73fbaee",
+      "NC_Waterbody_213": "07f05b99f33025c9113804ee1d52db95a5643f1becbd373d9f6e444bb65fbb21",
+      "NC_Waterbody_214": "b46bec9faee7fe9b5652d3191b86b06a5cbef5e3c22cd0dc626de753ac3b8379",
+      "NC_Waterbody_215": "dc78a87cc97ae2a4cf0a86dda6f03fc06b7dfbe8ba2b1f45fc3c3c354df1ec5b",
+      "NC_Waterbody_216": "eabd0f4b1729cf33c9337e7d5a2da0e27b3baf5ed7800665521571ccc0fbe901",
+      "NC_Waterbody_217": "9aa1a5432dc6c094ee2ea4758ccf409b42dda3b4740e743e43f7449c22e7d204",
+      "NC_Waterbody_218": "c610c7d278b545cc606d7e14ad13a8e6fb8c7fcc6204ade869daddccb18f2a78",
+      "NC_Waterbody_219": "e0670e7d075286a7fa7755bf8a304502b177f718ce3c742f464d80ff50ea0707",
+      "NC_Waterbody_22": "bc4af4dd3f0bdb551043231d52a91bd7d7193436a9dd6fb8b15c41c9dd5c7a8b",
+      "NC_Waterbody_220": "73487c9360390291749810e85d3933f0430e6aa5ba3a7e646b315f65b9f336d8",
+      "NC_Waterbody_221": "5ba558e49169cda339ab6c5c1ace887f9ea177de3c639566c2f6e00c4c4bc289",
+      "NC_Waterbody_222": "06f6ccc692e2b74088bb2a68c9d546235c39620e32e450157b17e6ea706b8052",
+      "NC_Waterbody_223": "593967812e6ef1fe45abb056c89b4e9e8417f6f82d22169e6592cc43f93fea0a",
+      "NC_Waterbody_224": "1f0ac67f3fbaec798e355a2a568f49938981a988d804c384bf4aa00141ec1139",
+      "NC_Waterbody_225": "64e16acd8d40f053b5c9f5aaadf32ec413ed25513606f432079ff4f8e5576520",
+      "NC_Waterbody_226": "a7fbf09f2fbd2d164df628acb46aabd8a927c7d843bdc075e32545b908175fe5",
+      "NC_Waterbody_227": "6f23a30fc448630bf1f2eec9c208c69c7c0297a5be233e691ea9fb285256ae5d",
+      "NC_Waterbody_228": "942e3ef67053e5e482a886b2aa2bcbca70caf052c06a079b2e728ce45cadbbdf",
+      "NC_Waterbody_229": "b914943af9f0f0736b397d9a86ef9c9ada0ed0e5576f7ce69bcb80384e915ea5",
+      "NC_Waterbody_23": "65b883467c2bd802cb554b7e3309f177b9ddbe29b67aa65e9430fc16158c2f96",
+      "NC_Waterbody_230": "1abde46f773080142699f5f19c1b849f5d177ef7e57b6238593b5241c5b80cda",
+      "NC_Waterbody_231": "9c8ffd9bbd369cb29a4dee8f8b81d40a85c67aad80e61ee475ce02d90675842f",
+      "NC_Waterbody_232": "117790e76c43d105f737af33e206edf241f70d57f4f9c502c6e7412a5e89ac74",
+      "NC_Waterbody_233": "01b359e29e89726cb5e84505ffad59ff55c20958add14a56a514aa59aba5bc8a",
+      "NC_Waterbody_234": "cf2511fee769839b062e2d734945eeddf1344b9f0c35c318f78823e76baba927",
+      "NC_Waterbody_235": "92a75b8dd56d910ef0930ae746b94a4c3f2f7750bd1f2314ba28350491bb7666",
+      "NC_Waterbody_236": "a28b42a17ce2e2990786931daef6675a8cc2f595b81db19921e9ea27bad0f778",
+      "NC_Waterbody_237": "624c3d6768cfe7ebcad504003e66a1a466efdd6ceeef392c5788fce1e09a0e98",
+      "NC_Waterbody_238": "d0e9e9ade66b76ac5a8e8e51272fb19a27d42b0b2f4b4b2edb2ae7795815bbc8",
+      "NC_Waterbody_239": "91290b15c7aa9abac26e7b8b1498e3b17ae8a418d2a7465545a06dfec763e995",
+      "NC_Waterbody_24": "f42162ba217fc81a7019e384e003577816671ffe895291c3fd268d36c13033a4",
+      "NC_Waterbody_240": "48469cd9bdf7f2429e4cfa1861792fde027e40d8edb3cdd81e75f9d9f7acb329",
+      "NC_Waterbody_241": "bf64f310366f3bef466438f2425d649e1fb0e8fa03a23e0285c7d8c6cc30f347",
+      "NC_Waterbody_242": "adc089762b3f0eea57fdb47ab9ac9a5f9590b94752ad6712c5a122281279f58a",
+      "NC_Waterbody_243": "9e3b63962cde66a60e619574fc5e104db8f1528380974d9bc5522e40f8c8ba88",
+      "NC_Waterbody_244": "f5578f2db6eb132a5e3a3e2d16a8a492f3fa407b73c1ddc82bac4b567e9e2abc",
+      "NC_Waterbody_245": "c668fbc8a8cb2ab8c68e9002f014b419d7173a21dce38eb7958ab08080c19539",
+      "NC_Waterbody_246": "b9dfc5590889fa194604ad02a60f4292e424d76ec25c18a439d6d4f48c51090f",
+      "NC_Waterbody_247": "9779d7f56a0fe62c1d3c8c1325becbecc00da954b0c0d56afcab82b9ffe6891d",
+      "NC_Waterbody_248": "c872fc7ed82ce549153a64603638171d36b3d4c98d068925e659c1efbc7ccb19",
+      "NC_Waterbody_249": "37fad4c8d3709c9131eb70333df44f067427110b36dbba61d48c208ebfe1bd4b",
+      "NC_Waterbody_25": "7092f53dad23281a7461cfbebf8f5cf7d5e8f8d76e30b55efb9fa1aaa2e28b5c",
+      "NC_Waterbody_250": "8ba424af63b4b0e83bbd6515283ef31e83c31541dddffa9cb398ec98d86e1583",
+      "NC_Waterbody_251": "9a325fa5e0c2c22614c7793b7497ad40e38eb370c78f225fbab9693364bd03f6",
+      "NC_Waterbody_252": "081af1101d217ae25d0c56d90ca82b745725e34c343d9ad728c74ee4fd55254f",
+      "NC_Waterbody_253": "2587caa217c393100e92e9a0353fd24e4a9aba7d63fc159bc76ced3818c5786f",
+      "NC_Waterbody_254": "0fca2944c78bdb03f064ad9fa7564fa18f8b80072a03dfa99cb3ff507b23c1b5",
+      "NC_Waterbody_255": "94ce8dd28740dd183e8488b732d34fe775f2b6c8dc64515de7abbc58ab85b3bb",
+      "NC_Waterbody_256": "9b7461b5e18f51e4ad54438242adfe5275ffdea396ee2d43aa57d8aca05c034d",
+      "NC_Waterbody_257": "35fdd22e2fb249dc0e7f76865867892defc27617f6a91cc3b62a33ca86cafaaa",
+      "NC_Waterbody_258": "ff0c604bf474abc767ff964e5531b2cf24d339acde537c9cef95d1ad082bc028",
+      "NC_Waterbody_259": "55936d5f34badc53bec58e6d2ac6b4d76a3e5deb5e5c22a053778ae1aabd6a55",
+      "NC_Waterbody_26": "e2967c89b61dbb249b8bb1f52854694eeaf11c94adefabd5ce0c632853ee7468",
+      "NC_Waterbody_260": "b301796c361ee552c49b3548f990ce55ea79d02555fb93d7184e937449a712e5",
+      "NC_Waterbody_261": "edb2d9804c902b3afc38b85cda0987a5fb4e85df46d0630f0bbf7f48cec7c377",
+      "NC_Waterbody_262": "4c34b8dd60ec51c65774a8994027be8ee73115263c41378649b35b49ed0f470f",
+      "NC_Waterbody_263": "7a75e86a13f8b037755fd18ff5e47e0c5cb5ee805735f210a184c0e8e16ab1f5",
+      "NC_Waterbody_264": "32bfa5da698b0b7c7ff567edae56c18d40d8b13d28de18a4147c03ff8ee8a84f",
+      "NC_Waterbody_265": "2c0356bc3805887cf80dcbf3a568160534e52dfe9436982aac7af9bd37113014",
+      "NC_Waterbody_266": "e72b07929f98c1b00842efa54bc2035f459067069ab4975832f7362fdb767fbe",
+      "NC_Waterbody_267": "ed9332a0f829b8cec467ed372968a5385aee0a71f3b53d0d54a84e402b44c43c",
+      "NC_Waterbody_268": "135da737967814f169159ef311cfda3ac2d7c372a7db519958d35480871ceed7",
+      "NC_Waterbody_269": "975ad62c56b10613cdf6ba237f64f56e2789580bd55efcf38abbc0757ea997b8",
+      "NC_Waterbody_27": "f442d724b178d678115913d8666d2971b62f49c3baa39eab2c744558c0eeeaaf",
+      "NC_Waterbody_270": "c092860a6ed024674288741a27656442eb22d69b02f1eeb02030fc645950d537",
+      "NC_Waterbody_271": "2a606d71d9e5ffee51ab86bbfe71bbfc0eeae101ded947d07c3121bba226ea27",
+      "NC_Waterbody_272": "4ac918e0e432ebf5b9111ea99bfe25599f437831996c8021a94c0dd38e3e07c9",
+      "NC_Waterbody_273": "6c4537e9397609609c8540e28edd2203f92b968a399ece76e563d7238b3c0325",
+      "NC_Waterbody_274": "1c69adac2b097f803b1516cf964aa8bf088fa06502fee8d2f4b495efadca4772",
+      "NC_Waterbody_275": "eb41963db32b1dfc09741c5eb6b0e686f6a58c549419b3dda7a5d9a6cd3fd868",
+      "NC_Waterbody_276": "5da705ac1494a38cb3fc89f8f9b9f95fd13f1d217e9c1a7d84153807544fd05b",
+      "NC_Waterbody_277": "181bf19d8c40720e5027023928251a0078c509c7d702682c8451ec76887cbe16",
+      "NC_Waterbody_278": "6c5551ffbf0e107383968ff6cd066ec82961f216fe07355372876059a0837f19",
+      "NC_Waterbody_279": "a93a62c50093dfe23b63a1171cd9d8850858dd7b6fb31e7ed9e054869b822ab2",
+      "NC_Waterbody_28": "79d98368064bd2ad776ef95a36799937a4ede2cd65fa043353954cdd5d273019",
+      "NC_Waterbody_280": "6dc7eb18904c43d472f98a1c83927249beb1a4d6ef188ca34eb3226b54e82c39",
+      "NC_Waterbody_281": "557245527ade24ef1ee015e908230585a3e0c28aacd52aa8bbd5e9b017a47ec5",
+      "NC_Waterbody_282": "2047663978e418825672f13b4796c5bba3905b190025dbfe10bfc2fbd4e7cce8",
+      "NC_Waterbody_283": "bb78033b9a1fbda00f0e963f700279944b0528ab47267a09a9658e20a839e709",
+      "NC_Waterbody_284": "fc2f4750ce65b2eb2ae3bafd566d6f6c14ab86f2a7aaf9ebbce8d72af3b5817b",
+      "NC_Waterbody_285": "95eea32d024afba0d89d85061836f309b31f986b3ac9a7eff0bb92bffd427bdd",
+      "NC_Waterbody_286": "7d354464f236b030389f732eea573d2689939808e72dd32d43f569f9a4477575",
+      "NC_Waterbody_287": "04e8310d047ed737d3fcfb080f3e1aa001c14df0ab0e681cc315937cd8101fa5",
+      "NC_Waterbody_288": "113a60d2a9e9b4955a9575be810683215dc4d5d0f3d36db68b5ed5a2b9310cde",
+      "NC_Waterbody_289": "628b76bf206c9590af27774b17b410a0995a569baf5f988f8f5085a67fd441ae",
+      "NC_Waterbody_29": "74e4475be02b6b19e8fc2b3452703c442d4902b710e7c12e813f8d1a953d7235",
+      "NC_Waterbody_290": "0e4d7997944639146151b3ab1b5092a6f654bde3198305773c811de98077e03f",
+      "NC_Waterbody_291": "0a5f06486e0f5a5929350e3a65d837677d8555ac8812465928f86aa404e11d62",
+      "NC_Waterbody_292": "a1dcbfbb499f759ee60997a721052340947c9aedb2ac718fc5fe4dc05fa17127",
+      "NC_Waterbody_293": "efe7fb09350749f5de360fe1370373fe6daee69bb0cfa7fb6e265b0f89f1e132",
+      "NC_Waterbody_294": "f42363d9cbcc9718cc3c59f945a0754de09db6dea558ea5aae6d8c5254d1f094",
+      "NC_Waterbody_295": "c26952d519e13ca2b9dde808ffe23b421285c703c0011f483bb4c013ec8143b0",
+      "NC_Waterbody_296": "13585813c860daf418f03e4415a73086651c6ead407378fb0b0d94f81c582724",
+      "NC_Waterbody_297": "df4e04ae34f224cd4feaefe78dea96db2662b8ac053bb51e6aa66078107bee6d",
+      "NC_Waterbody_298": "3c066b62d2ce4dac271cc72b1b2ed16b8cb35ae078823d88c8d865ede7a8b620",
+      "NC_Waterbody_299": "e71a56138dae329303f063ffdfe439ff1d4e7983a019f071a6a4efc8a67b90cd",
+      "NC_Waterbody_3": "f4b89a6238b58872770cfe7f759d5388ad8cceea5e9704e3070af30d44cac8e6",
+      "NC_Waterbody_30": "d5d4bfc740c83be9fb0955b80bfa64ff6822bcc00f34fd8bb89a08a7b69688f0",
+      "NC_Waterbody_300": "6b76305306ca9996194d8e56b23630ec2ec675f0284e43608842d6314a40dfa9",
+      "NC_Waterbody_301": "9fe53b5c79f335bef7e09677cdd4666be0b372fb7d4cc790af934e807d79ef07",
+      "NC_Waterbody_302": "ec5e5ae70b978c6112f048ba47fa8683e2ff66f149c3016df8accd7a324b40f6",
+      "NC_Waterbody_303": "39f25c913c4a5f2262574171428eb78416d1e0e1d4d4a27e1f165876b4c66c9d",
+      "NC_Waterbody_304": "fb813a044a4e209f83b9ecce65aa7e821b1025f06424390b336fd23bf2454f62",
+      "NC_Waterbody_305": "edb4aab48c90679d94dc2089f808f7f3734242074678abaf489c2b6aa0457700",
+      "NC_Waterbody_306": "b0156cd2621c99fb2dd4027a42966b9bae1ec77a2d3532e5f76142087cfe229b",
+      "NC_Waterbody_307": "54262bdf664481bb36977233349a5797a5808ea34b1571730de8e4b3f2ba5840",
+      "NC_Waterbody_308": "65675beffa60a349a65521287685d68130c43f05fdf03e6454215fefe92fa9e9",
+      "NC_Waterbody_309": "874a3658f3fcc1418dd004b1dbe68f64d4858f6869b7b33f631dce8cfd8f39ff",
+      "NC_Waterbody_31": "ee1748dd201dfd895588d71cf46d34cb0f42714aa7245e5606675f4a4b4604d6",
+      "NC_Waterbody_310": "85c6dbee9c74397ad5fd68f28e2217cd42290c6921b7c2d0308d2c894b232ef0",
+      "NC_Waterbody_311": "e2c42d93237a2e94adfe2fb1ea4fc320d391efaa2a728210346c020d5a2850ad",
+      "NC_Waterbody_312": "9b90ad4aaf6b907b874116b95d442b3133d7846a152bc4485ff155fad22f1699",
+      "NC_Waterbody_313": "3cbd7f70dcee24fc21783f86013bb8c43682fa1c42b1ecf0e5c6d38b2eda1845",
+      "NC_Waterbody_314": "508c0fec7c4fe4f3ef0678c817a5c377bae849b2b55b569d2e29c0d8f3721ecf",
+      "NC_Waterbody_315": "87506b515d41221691afb8815f40f5121fb59766cf648cb9970278c04c306008",
+      "NC_Waterbody_32": "35022bea5a3ade30dedb42606475a7aad23652144559a0ccd005b0c94253a9e4",
+      "NC_Waterbody_33": "721be0d028568035c717cb8ad215add459f26de7ddce1f6381979b0f5e818f21",
+      "NC_Waterbody_34": "2962892d7b97dbcb6c6e14c72513f59ad722d1fbe5a219b1d612a271280c807f",
+      "NC_Waterbody_35": "21bf6da1bafdac70e5adb9c9b0391f06429bf347928af7d3375f592d890b8dc3",
+      "NC_Waterbody_36": "fda06490fda26992ecfc72cbeb231f6015794269dffb905375b01a6016efad93",
+      "NC_Waterbody_37": "352adb61b25f0d4cf1c2cb49bd8655fc980140e0a21b65192692e1c3d933e758",
+      "NC_Waterbody_38": "0c4cc6c0a7a1c016ebf1532a8ba1ff2c1c80142e00f75ccbb4d5f55d7438ab65",
+      "NC_Waterbody_39": "00052df5736406c95972e2bfe850ef679b78db2002354856f2c6427a46264124",
+      "NC_Waterbody_4": "059b8447a0dad5ef46521cc50fb63ea96ffdabf5eca6d38ac25229a1fcc8a8a0",
+      "NC_Waterbody_40": "1ee308f16a3a22de47c6e2e3b7f5e1568706ec7698dea8529ef1824503386b64",
+      "NC_Waterbody_41": "e223a43ed7cd3c9165247cd1f0ab4c7816d7249eb881921e4be6e2891d023fe2",
+      "NC_Waterbody_42": "d02cbd94cbaf1fc4e18f3d3f956983bbb4830c15a169933817e10f931c651a83",
+      "NC_Waterbody_43": "25be03ec1410ee38a1bdbd4dcd22493f2078822518927ce9b64731cd7e4f1d19",
+      "NC_Waterbody_44": "d0ecb940475042e30584708142593fce23faa3a6d506ed6d243ab7ea4d5097e3",
+      "NC_Waterbody_45": "b902646b2ee166569a179b3d0cf1ee76ba767760b76e633b96d603b969b684a9",
+      "NC_Waterbody_46": "5e3c28298796f2b4ca27730766a9a13426ec3e53bc7010bdd9b73715d8122b96",
+      "NC_Waterbody_47": "cebcf4263b55b3bf6cca4c197a77dc45f051002d47f99d159f87b769c9f329ee",
+      "NC_Waterbody_48": "6d13deedef36c1cacbac900ed2d79208fa1a0608752deeca9c9946d67496965c",
+      "NC_Waterbody_49": "93fbb718b5562d058d649ad01f038f8d2b373a14ca7f79fb910464b3540ff1dd",
+      "NC_Waterbody_5": "37d6a4d17d507697d9bdbc6962426daf4b5e71e134701b7e8ed346dc995cf080",
+      "NC_Waterbody_50": "863de5c84b8e7315904b26bb583dafd51c31bb94ece90182ec4baff1aead9cae",
+      "NC_Waterbody_51": "74ab20d2dec4357f1ac08cf5cb7f8e23242c764fa53c2de2e9522b20002b67dd",
+      "NC_Waterbody_52": "2d1e59e783346d851a037694c2bc5156df38196971f403ba062029bec157800c",
+      "NC_Waterbody_53": "3e20a76d56d748d6345f9b983495fe95116437ed0618d694c8c50eec6700a32e",
+      "NC_Waterbody_54": "274a89ad01f9d15e176cca2d48cd7b005b2a2c851dab75546f6e91c50e46053c",
+      "NC_Waterbody_55": "432a857e9cabd75158bcda1d87a569634a672604379e3842d5a4f1df101ba021",
+      "NC_Waterbody_56": "231f05aa63fd2b5ec795ffc4bd605533cb1c0224af1b6b29c40c16b596d896b6",
+      "NC_Waterbody_57": "07886ea5ad53e8a331076fd522d284504a6be196f9eab9aad386948844f42537",
+      "NC_Waterbody_58": "b5b432c12ed36d3db3bf9ba8d5a776d0fe1b14a3471fa32b04b8ac72d7234fff",
+      "NC_Waterbody_59": "30bf68983dcc78c649ca8c6d386aa4153350c9a232189fed6cfe82cfcf697ff5",
+      "NC_Waterbody_6": "e98c3ab39d191bbd5ad2c0401a4743b6541ad2123d03d7f0b069426db536930d",
+      "NC_Waterbody_60": "a6ec3d036a2ebdae2b1930dbe7f3825a07a2410e7e389a01b113fe7ad336c33b",
+      "NC_Waterbody_61": "3664a30c8958def2fc525b163b761bd4764663f3d3032dc6b9ecc4c67b4dd5a2",
+      "NC_Waterbody_62": "c217c98e388750526431fa02fa72d459ead13ee310a773988747c6c5c7c8a08f",
+      "NC_Waterbody_63": "36a48b17fa91d264c23ea16787a01991bc3f6d24add5499b78319b88d1de3c58",
+      "NC_Waterbody_64": "bccc501d78a7b2cac72d7fcac8ad9476810abb346b80e1a53ff452fb5ece2df6",
+      "NC_Waterbody_65": "05447fd5b13326f18adb8549eb1905bd99fdbbe0a90464eaa899d182970e4c41",
+      "NC_Waterbody_66": "ff82e2207adbfbbeee8e0a8c49796de8529265498949bd338d05ce8d24c85ac9",
+      "NC_Waterbody_67": "566b017d24cb496420c95e3e306642340ec3a5f1468793516c1ce04a160d0ed6",
+      "NC_Waterbody_68": "08708f0ae8b7709c400f2d044deb55ce6c4272f1f0b8b7df526c6c042e162e58",
+      "NC_Waterbody_69": "82c82fd71565bc2afb6e801d38cbde274adb735d4586f14ab148449bbdad0b40",
+      "NC_Waterbody_7": "a73298da17e4c935a386c0e9c97201f6472eb709d1268a7abaa7b2ceaf1d97fd",
+      "NC_Waterbody_70": "d79850c3ebeeffb96ce398e96ae9fc6454255cc776cf008410f3fcabe7fc6701",
+      "NC_Waterbody_71": "cdc59880bc27eb9ebd5f3f5e067c414482358fb113384c5e9feae068f30759c0",
+      "NC_Waterbody_72": "de5767044587da766f93032a84b6a8efe22a068929015dfde89ebc3aa343c7d6",
+      "NC_Waterbody_73": "791b79a1be8e6c3a29e3fdd75823b9a80db6932168ad0436c2f55fc602fcc39d",
+      "NC_Waterbody_74": "de75c8e9c8be4433397fd52b576ff24023c0bbaf95f3f83c7fb97a36ca80217d",
+      "NC_Waterbody_75": "8a9d8ad1a05a040dae23eab0af39671e70240fe33c0803af0e41999c04bf6ab1",
+      "NC_Waterbody_76": "8f5f2cfdabe735d1dd585f507dd5dcb73c66c2ef61059d05b1bb2c35589ff930",
+      "NC_Waterbody_77": "4d0125189965cabf745a56e6b9cd39176f13e78be7be63067be07e92d425fb6f",
+      "NC_Waterbody_78": "691fe399e894e392c12ad4e28344dd1fc307f838f01184458bcc6aaeeafa077a",
+      "NC_Waterbody_79": "66fe363805c86b2cb64f06837fcf30dacd9010daa9f0ba725c23b1c1e102d7a2",
+      "NC_Waterbody_8": "8250a1d9b8eb72b23109eb3a5f2788048cae14145c80c6904c92de37c7f546cb",
+      "NC_Waterbody_80": "c06adb8a085095164adfaade429142cc29079afa722b464d96cae770d39b7196",
+      "NC_Waterbody_81": "da185a330e4113b69cbf59f4183734b7abab46219243e1331043570a1e1b95f0",
+      "NC_Waterbody_82": "80d6694cf59577813d235cb31170903ad3f8fa11dbf2e9b10bad54dd9d696e1a",
+      "NC_Waterbody_83": "8a0efa022531e2469af9026c3f797a2b1401ecc17984d1838556fddc66e6f70c",
+      "NC_Waterbody_84": "33fde454602a78f8094a62dd2879a49d0ab2c7dc6367a9af169d2018ad3b5bdb",
+      "NC_Waterbody_85": "b7bee4d45dddae5ff05d30da1da3b61be0521f79afb25db042b5bad35a791d23",
+      "NC_Waterbody_86": "b8f0a839a2f4c4b95e7276ad6a0e689170b267a9fd485050ad6093d15c3a022c",
+      "NC_Waterbody_87": "4f80a23422479d3ff38087381d2770feed8a081794a87c868a98cbf9a90e473a",
+      "NC_Waterbody_88": "6cc4b548cf60fe6e97fdb4a2fb73a6cafb056245581bae7ea2b7d2a9b6b99def",
+      "NC_Waterbody_89": "edf60baaefb20b92d04340bfc9396a89b9529e3a9c2a4e497e7c7a5893c19130",
+      "NC_Waterbody_9": "004952688879b03e193a35772dcf92669922d2fc33960669056d593411f97149",
+      "NC_Waterbody_90": "c1743917bfead2f44b697947eaaddb9b20787a37f824e3e5bdcabbe2903612d3",
+      "NC_Waterbody_91": "2e502693bfb2653fde4fa4cd6cab4a6dde29951232476c757b958dabf8b7db21",
+      "NC_Waterbody_92": "64541cb2dcc63b3641eb4ded19cbcebfe9cd7d112267c1bd72844ae532efd9ce",
+      "NC_Waterbody_93": "7a16d34d84b30d58aae53b762712c12c2d3bb413bc1da72b59b76a39416b967b",
+      "NC_Waterbody_94": "68ec8e304a359d0e29f5f5deb6826d13135f8e851ad2ec46e419ffd914093697",
+      "NC_Waterbody_95": "8e921bb2f0ba96b461744e341bc7634e61274bccd716cc585248aeb87cd15a9b",
+      "NC_Waterbody_96": "7f1565a945728332715fdb389d4ab0f28af5fc8ffee7e10a69cbb09dfdb74cd3",
+      "NC_Waterbody_97": "0e02d2ce4571743b17d97a9550a605de40766b4f6c92a5a73b3d31e0e40218eb",
+      "NC_Waterbody_98": "4369a61afbc9c3a4013fa05741845442281544cabf50bf23d3e927572b824666",
+      "NC_Waterbody_99": "1ce913952c504ee9080cc1f85147aef038d59c28188b5d2637978ada36f02b06",
+      "Plane": "b8022f869e81bf47fc36663c6e615bf575363daf81f8c66794470da562b372fa",
+      "Sphere": "f4c739ed55c87107fae71d016e4122dfc695f2e53951c52833d92fa9e59cd9d0",
+      "Sphere.001": "aba92e4b57ccaaa92951a760aba5034bce27c8df4e014d5d86960c3d88efb245",
+      "Sphere.002": "f4c739ed55c87107fae71d016e4122dfc695f2e53951c52833d92fa9e59cd9d0",
+      "Terrain controls | one data point": "15ec7bf0b50732b49f8228e07d24365338f9e3ab994b00af08e5a3bffe55fd8b",
+      "USGS_corridor_terrain": "84e13aa9b10968cda9a32ffe54c2b8f3f622939b269c15e202e66bd53fc66da5",
+      "USGS_regional_terrain": "e6e24184adb6a61fc332a6bf9a563e061bff0dee13cba4742d622967869f9745",
+      "USGS_state_terrain": "ba3791a53a3b8b078296af4dc8f5372615eee79c89ae92c5583f2e5e3bbad0d8"
+    },
+    "packed": {
+      "Coast taper | distance from ocean | corridor": "84e25510a67f43456327164eaa4191329bac3bc826f266e9e40d23c7151023ea",
+      "Coast taper | distance from ocean | regional": "63f1fbb39d8b036a21500cfb04b05a3424fc0f0e683ef1ceec5b781b3feaf823",
+      "Coast taper | distance from ocean | state": "16168d0b29de897f1f95a31fa5736984a01fa575531168510efa12a07d9dae63",
+      "Map / Land cover / NLCD 2025 + NWI": "1fb278b650cc019b68c27f12249df4d603b3eb9b689d3241351a3a8e2afa8cee",
+      "Map / Masks / NLCD 2025 + NWI": "07daada59329fe0693a0aa05d4a591972c7cb373c6e95d7e3887e185d0c297d9",
+      "Map ink | rivers | Terrain_corridor_USGS": "438fb5b15dbf2d0f2f7991f3ae05d6453aed97082a5639b20b9ff179e90d347c",
+      "Map ink | rivers | Terrain_regional_USGS": "4c289c060074ed0751f96962765f43f3878470986d17377f9cc3c31d5c3f6450",
+      "Map ink | rivers | Terrain_state_USGS": "ac52e2258e7119724d4fdbeb4ab49034252d2f355326c5209c5abc23443aaac7",
+      "Map ink | state boundary masks | R NC G neighbors": "14e4f1b7873edf4b136601de3b0f7dc4b1052e681f657d88eff5ed59aecc813f",
+      "Terrain depth | USGS corridor height": "ae1592a643adda63b79857cbf4fb41371894fcfc244feea6a2509e149758d0b5",
+      "Terrain depth | USGS corridor relief": "57b2c2947a53b7d78c232b55097d95312688985ae5f664f3c514a83f0c323995",
+      "Terrain depth | USGS regional height": "227180fc4e459b14854779b3df26a31d11c627d057aed9c36b28abc30049910f",
+      "Terrain depth | USGS regional relief": "cf68685b9eb205b93aca516b42c9bd9aa1add91449b59e25a1e4dae31fdd40cc",
+      "Terrain depth | USGS state height": "a5138993a5987f5fdebe47e4d7a4f7d25fbc55d2b33ff5eda571171c8857f144",
+      "Terrain depth | USGS state relief": "aae64a075a4805d2d5f2b332932f9f56c61444049add47b86ac7f57047d3d092",
+      "USGS detail normals / corridor": "87dd114f82e5734e9d91ba34607ecdd1956ef0e8813d678a9dc5dd4e02be8926",
+      "USGS detail normals / regional": "30a0bd955607d4a6170ebd9e1578ea984da1b85c393b3e9cec8d5d07acb1a06f",
+      "USGS detail normals / state": "3a02094ce6ef4f962b4f6ef765121b069db05ae42b30c0bdfa6d5ff680489fff",
+      "DIN Alternate Bold": "78e816b9938fc40dd5383f4a91b598494798e2fa1d526abbd9e7ff7e5b9bf0ee"
+    },
+    "camera": {
+      "matrix": [
+        [
+          0.9995721578598022,
+          -0.02145608514547348,
+          -0.01987871527671814,
+          1.564834475517273
+        ],
+        [
+          0.011534112505614758,
+          0.9136999249458313,
+          -0.4062257409095764,
+          -8.824653625488281
+        ],
+        [
+          0.026879193261265755,
+          0.40582263469696045,
+          0.9135564565658569,
+          19.945655822753906
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "lens": 60.0,
+      "aperture": 0.75,
+      "frame": 38
+    },
+    "material_links": {
+      "Atlantic / calm ripples": [
+        [
+          "Adjustable color variation",
+          "Color",
+          "Calm opaque water / EEVEE",
+          "Base Color"
+        ],
+        [
+          "Broad ocean color variation",
+          "Fac",
+          "Deep blue to muted teal",
+          "Fac"
+        ],
+        [
+          "Calm opaque water / EEVEE",
+          "BSDF",
+          "Water surface",
+          "Surface"
+        ],
+        [
+          "Deep blue to muted teal",
+          "Color",
+          "Adjustable color variation",
+          "Color2"
+        ],
+        [
+          "Fine surface breakup",
+          "Fac",
+          "Fine texture / 15 percent",
+          "Value"
+        ],
+        [
+          "Fine texture / 15 percent",
+          "Value",
+          "Ripples with irregular crests",
+          "Value_001"
+        ],
+        [
+          "Ripples with irregular crests",
+          "Value",
+          "Subtle water normals / no displacement",
+          "Height"
+        ],
+        [
+          "Subtle water normals / no displacement",
+          "Normal",
+          "Calm opaque water / EEVEE",
+          "Normal"
+        ],
+        [
+          "Wind direction / 25 degrees",
+          "Vector",
+          "Fine surface breakup",
+          "Vector"
+        ],
+        [
+          "Wind direction / 25 degrees",
+          "Vector",
+          "Wind ripples / slow drift",
+          "Vector"
+        ],
+        [
+          "Wind ripples / slow drift",
+          "Fac",
+          "Ripples with irregular crests",
+          "Value"
+        ],
+        [
+          "World position / consistent ripple size",
+          "Position",
+          "Broad ocean color variation",
+          "Vector"
+        ],
+        [
+          "World position / consistent ripple size",
+          "Position",
+          "Wind direction / 25 degrees",
+          "Vector"
+        ]
+      ],
+      "Atlantic / deep blue": [
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE corridor": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "NC mask / corridor relief",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "State normal coordinates / origin",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "NC mask / corridor relief",
+          "Color2"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NC mask / corridor relief",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC / shared state relief",
+          "Color",
+          "NC mask / corridor relief",
+          "Color1"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "State normal coordinates / extent",
+          "Vector",
+          "Outside NC / shared state relief",
+          "Vector"
+        ],
+        [
+          "State normal coordinates / origin",
+          "Vector",
+          "State normal coordinates / extent",
+          "Vector"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE regional": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "B / ochre coast, green Piedmont, rust mountains / Land cover EEVEE state": [
+        [
+          "Attribute",
+          "Fac",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_4"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Mix (Legacy)",
+          "Fac"
+        ],
+        [
+          "Attribute",
+          "Fac",
+          "Outside NC roughness",
+          "Value"
+        ],
+        [
+          "Bump",
+          "Normal",
+          "Principled BSDF",
+          "Normal"
+        ],
+        [
+          "Color Ramp",
+          "Color",
+          "Mix (Legacy)",
+          "Color2"
+        ],
+        [
+          "Geometry",
+          "Normal",
+          "Separate XYZ.001",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Noise Texture",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Separate XYZ.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.002",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.004",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.007",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "Position",
+          "Vector Math.009",
+          "Vector"
+        ],
+        [
+          "Geometry",
+          "True Normal",
+          "Vector Math.006",
+          "Vector"
+        ],
+        [
+          "Image Texture",
+          "Color",
+          "Normal Map",
+          "Color"
+        ],
+        [
+          "Image Texture.001",
+          "Color",
+          "Separate Color.001",
+          "Color"
+        ],
+        [
+          "Image Texture.002",
+          "Color",
+          "Separate Color.002",
+          "Color"
+        ],
+        [
+          "Image Texture.003",
+          "Color",
+          "Map Range.003",
+          "Value"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_6",
+          "Mix (Legacy).005",
+          "Color1"
+        ],
+        [
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_7",
+          "Normal Map",
+          "Strength"
+        ],
+        [
+          "Land cover / 2025",
+          "Alpha",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_2"
+        ],
+        [
+          "Land cover / 2025",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_1"
+        ],
+        [
+          "Map Range",
+          "Result",
+          "Color Ramp",
+          "Fac"
+        ],
+        [
+          "Map Range.001",
+          "Result",
+          "Math.003",
+          "Value_001"
+        ],
+        [
+          "Map Range.002",
+          "Result",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_5"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.011",
+          "Value_001"
+        ],
+        [
+          "Map Range.003",
+          "Result",
+          "Math.012",
+          "Value_001"
+        ],
+        [
+          "Math",
+          "Value",
+          "Math.001",
+          "Value"
+        ],
+        [
+          "Math.001",
+          "Value",
+          "Math.002",
+          "Value"
+        ],
+        [
+          "Math.002",
+          "Value",
+          "Math.003",
+          "Value"
+        ],
+        [
+          "Math.003",
+          "Value",
+          "Mix (Legacy).001",
+          "Fac"
+        ],
+        [
+          "Math.004",
+          "Value",
+          "Math.006",
+          "Value"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.006",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.007",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.008",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.009",
+          "Value_001"
+        ],
+        [
+          "Math.005",
+          "Value",
+          "Math.010",
+          "Value_001"
+        ],
+        [
+          "Math.006",
+          "Value",
+          "Math.011",
+          "Value"
+        ],
+        [
+          "Math.007",
+          "Value",
+          "Math.012",
+          "Value"
+        ],
+        [
+          "Math.008",
+          "Value",
+          "Mix (Legacy).005",
+          "Fac"
+        ],
+        [
+          "Math.009",
+          "Value",
+          "Mix (Legacy).006",
+          "Fac"
+        ],
+        [
+          "Math.010",
+          "Value",
+          "Mix (Legacy).007",
+          "Fac"
+        ],
+        [
+          "Math.011",
+          "Value",
+          "Mix (Legacy).003",
+          "Fac"
+        ],
+        [
+          "Math.012",
+          "Value",
+          "Mix (Legacy).004",
+          "Fac"
+        ],
+        [
+          "Mix (Legacy)",
+          "Color",
+          "Mix (Legacy).001",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).001",
+          "Color",
+          "Mix (Legacy).002",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).002",
+          "Color",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_0"
+        ],
+        [
+          "Mix (Legacy).003",
+          "Color",
+          "Mix (Legacy).004",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).004",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Mix (Legacy).005",
+          "Color",
+          "Mix (Legacy).006",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).006",
+          "Color",
+          "Mix (Legacy).007",
+          "Color1"
+        ],
+        [
+          "Mix (Legacy).007",
+          "Color",
+          "Mix (Legacy).003",
+          "Color1"
+        ],
+        [
+          "NWI wetlands / packed masks",
+          "Color",
+          "Separate Color",
+          "Color"
+        ],
+        [
+          "Noise Texture",
+          "Color",
+          "Mix (Legacy).002",
+          "Color2"
+        ],
+        [
+          "Noise Texture",
+          "Fac",
+          "Bump",
+          "Height"
+        ],
+        [
+          "Normal Map",
+          "Normal",
+          "Bump",
+          "Normal"
+        ],
+        [
+          "Outside NC roughness",
+          "Result",
+          "Principled BSDF",
+          "Roughness"
+        ],
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Separate Color",
+          "Red",
+          "LAND COVER AND WETLAND CONTROLS",
+          "Socket_3"
+        ],
+        [
+          "Separate Color.001",
+          "Green",
+          "Math.004",
+          "Value"
+        ],
+        [
+          "Separate Color.001",
+          "Red",
+          "Math.007",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Blue",
+          "Math.008",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Green",
+          "Math.009",
+          "Value"
+        ],
+        [
+          "Separate Color.002",
+          "Red",
+          "Math.010",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Map Range",
+          "Value"
+        ],
+        [
+          "Separate XYZ",
+          "Z",
+          "Math",
+          "Value"
+        ],
+        [
+          "Separate XYZ.001",
+          "Z",
+          "Map Range.001",
+          "Value"
+        ],
+        [
+          "Separate XYZ.002",
+          "Z",
+          "Map Range.002",
+          "Value"
+        ],
+        [
+          "Vector Math",
+          "Vector",
+          "Vector Math.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.001",
+          "Vector",
+          "Image Texture",
+          "Vector"
+        ],
+        [
+          "Vector Math.002",
+          "Vector",
+          "Vector Math.003",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "Land cover / 2025",
+          "Vector"
+        ],
+        [
+          "Vector Math.003",
+          "Vector",
+          "NWI wetlands / packed masks",
+          "Vector"
+        ],
+        [
+          "Vector Math.004",
+          "Vector",
+          "Vector Math.005",
+          "Vector"
+        ],
+        [
+          "Vector Math.005",
+          "Vector",
+          "Image Texture.001",
+          "Vector"
+        ],
+        [
+          "Vector Math.006",
+          "Value",
+          "Math.005",
+          "Value"
+        ],
+        [
+          "Vector Math.007",
+          "Vector",
+          "Vector Math.008",
+          "Vector"
+        ],
+        [
+          "Vector Math.008",
+          "Vector",
+          "Image Texture.002",
+          "Vector"
+        ],
+        [
+          "Vector Math.009",
+          "Vector",
+          "Vector Math.010",
+          "Vector"
+        ],
+        [
+          "Vector Math.010",
+          "Vector",
+          "Vector Math.011",
+          "Vector"
+        ],
+        [
+          "Vector Math.011",
+          "Vector",
+          "Image Texture.003",
+          "Vector"
+        ]
+      ],
+      "Cape Fear / luminous cyan": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Cape Fear watershed boundary / blue": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "County borders / muted earth": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Fine ivory state boundary": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Lakes and reservoirs / blue water": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Major tributaries / subdued blue": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Map type | soft aqua | 8FCAD1": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Map type | warm parchment | E8DFC6": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Neighbor state borders / subdued ivory": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Other waterways / dark teal": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ],
+      "Type / warm ivory": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ]
+      ]
+    }
+  },
+  "font_substitution": {
+    "original_families": [
+      "DIN Alternate Bold"
+    ],
+    "replacement_family": "Golos Text Medium"
+  },
+  "template_parts": [
+    {
+      "file": "north-carolina-detailed.blend.part01",
+      "bytes": 41943040,
+      "sha256": "a4bce255ab1815ae2c19c986d3f82d2f19546bac25adb8e006051f7c21072d5c"
+    },
+    {
+      "file": "north-carolina-detailed.blend.part02",
+      "bytes": 41943040,
+      "sha256": "0aaca1c2b819156b65cde90daf23cb48c3e3f4388541bad065363238c788b49d"
+    },
+    {
+      "file": "north-carolina-detailed.blend.part03",
+      "bytes": 40852426,
+      "sha256": "06a2513fec7ede51eec9ae9bf499efe54cfd894e6dccd24068b3a35ef993e232"
+    }
+  ]
+}

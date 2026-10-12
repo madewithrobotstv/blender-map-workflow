@@ -105,3 +105,8 @@ The reference United States overview has 299,111 terrain vertices and rendered i
 State and close-up builds put detail into a smaller geographic area. Their cost depends on requested sampling, terrain shape, geographic overlays, image dimensions, and hardware. The workflow records the actual measurements for your run. See the [test report](../../docs/test-report.md) in the full source distribution for the tested scope; it is not included in the standalone skill archive.
 
 For technical details, continue to the [execution guide](workflow.md), [configuration guide](configuration.md), or [troubleshooting guide](troubleshooting.md).
+
+
+## Reproduce the finished detailed NC map
+
+Use [the detailed-map guide](detailed-map.md) and the `north-carolina-detailed.json` preset for the stored V2 shot, or `north-carolina-detailed-overview.json` for a wide state view. This preserves land cover, wetlands, rivers, counties, printed river/state-border ink, coast tapering, terrain-depth controls, ocean texture/waves and the shared camera aim/DOF null. The general `north-carolina.json` preset is the lighter elevation builder. The detailed NC template is packed and works offline; another state still needs its own data preparation. Existing camera and target keyframes are retained.

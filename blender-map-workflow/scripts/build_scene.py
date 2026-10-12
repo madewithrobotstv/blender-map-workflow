@@ -12,6 +12,7 @@ from mathutils import Matrix
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import sample_surface, write_json
+from line_profiles import flat_profile
 
 
 def color(value):
@@ -80,6 +81,7 @@ def curve_object(name, lines, target, mat, width, parent=None):
         spline.points.foreach_set('co', array.ravel())
     obj = bpy.data.objects.new(name, data); target.objects.link(obj)
     obj.parent = parent; data.materials.append(mat)
+    flat_profile(data, width, '09_LINE_PROFILES')
     return obj
 
 
@@ -124,11 +126,153 @@ def terrain_material(panel, config, output):
         links.new(mix.outputs[0], shader.inputs['Base Color'])
     image = bpy.data.images.load(str(output / 'assets' / f'{panel["id"]}-normal.png'))
     image.colorspace_settings.name = 'Non-Color'; image.pack()
-    image.filepath = f'//assets/{panel["id"]}-normal.png'
+    public_path = f'//assets/{panel["id"]}-normal.png'
+    image.filepath = ' ' * 1023
+    image.filepath = public_path
+    for packed in image.packed_files:
+        packed.filepath = ' ' * 1023
+        packed.filepath = public_path
     texture = nodes.new('ShaderNodeTexImage'); texture.image = image; texture.extension = 'EXTEND'
     normal = nodes.new('ShaderNodeNormalMap'); normal.space = 'OBJECT'
     links.new(texture.outputs['Color'], normal.inputs['Color']); links.new(normal.outputs['Normal'], shader.inputs['Normal'])
     return mat
+
+
+def ocean_material(ocean, config):
+    """Procedural calm-water surface on the existing four-vertex plane.
+
+    Ported from the detailed NC reference scene's 'Atlantic / calm ripples' treatment: a
+    banded sine wave plus fine noise breakup into a bump, with four keyframable
+    controls read off object custom properties. No displacement, no Ocean modifier,
+    no simulation, so ocean cost stays constant regardless of map size.
+    """
+    controls = config['style'].get('ocean', {})
+    scene = bpy.context.scene
+    settings = [('Ripple strength', controls.get('ripple_strength', .16), 0., 1.,
+                 'Surface ripples only; zero gives a smooth ocean. No geometry simulation.'),
+                ('Color variation', controls.get('color_variation', .65), 0., 1.,
+                 'Broad blue and muted teal variation; stylized color, not measured water depth.'),
+                ('Water roughness', controls.get('water_roughness', .40), .1, .8,
+                 'Increase for softer highlights; decrease for more sheen.'),
+                ('Drift speed', controls.get('drift_speed', .16), 0., 1.,
+                 'Slow procedural wave phase in radians per second. Set zero for stationary water.')]
+    for name, value, low, high, description in settings:
+        ocean[name] = float(value)
+        ocean.id_properties_ui(name).update(min=low, max=high, soft_min=low, soft_max=high, description=description)
+
+    def node(kind, name, xy):
+        n = nt.nodes.new(kind); n.name = name; n.label = name; n.location = xy
+        return n
+
+    def link(a, output, b, input):
+        nt.links.new(a.outputs[output], b.inputs[input])
+
+    def drive(socket, name):
+        curve = socket.driver_add('default_value')
+        d = curve.driver; d.type = 'SCRIPTED'
+        v = d.variables.new(); v.name = 'value'; v.type = 'SINGLE_PROP'
+        v.targets[0].id = ocean; v.targets[0].data_path = '["' + name + '"]'
+        d.expression = 'value'
+        return d
+
+    mat = bpy.data.materials.new('Ocean / calm ripples'); mat.use_nodes = True
+    nt = mat.node_tree; nt.nodes.clear()
+    geometry = node('ShaderNodeNewGeometry', 'World position / consistent ripple size', (-1200, 240))
+    mapping = node('ShaderNodeMapping', 'Wind direction / 25 degrees', (-980, 260))
+    mapping.inputs['Rotation'].default_value[2] = .436332313
+    mapping.inputs['Scale'].default_value = (.8, 1., 1.)
+    link(geometry, 'Position', mapping, 'Vector')
+
+    wave = node('ShaderNodeTexWave', 'Wind ripples / slow drift', (-710, 160))
+    wave.wave_type = 'BANDS'; wave.bands_direction = 'X'; wave.wave_profile = 'SIN'
+    wave.inputs['Scale'].default_value = 4.5
+    wave.inputs['Distortion'].default_value = 7.
+    wave.inputs['Detail'].default_value = 3.
+    wave.inputs['Detail Scale'].default_value = .8
+    wave.inputs['Detail Roughness'].default_value = .65
+    link(mapping, 'Vector', wave, 'Vector')
+    phase = drive(wave.inputs['Phase Offset'], 'Drift speed')
+    for name, path in [('fps', 'render.fps'), ('fps_base', 'render.fps_base')]:
+        v = phase.variables.new(); v.name = name; v.type = 'SINGLE_PROP'
+        v.targets[0].id_type = 'SCENE'; v.targets[0].id = scene; v.targets[0].data_path = path
+    phase.expression = 'frame * fps_base / fps * value'
+
+    fine = node('ShaderNodeTexNoise', 'Fine surface breakup', (-710, -180))
+    fine.inputs['Scale'].default_value = 32.
+    fine.inputs['Detail'].default_value = 2.
+    fine.inputs['Roughness'].default_value = .6
+    link(mapping, 'Vector', fine, 'Vector')
+    fine_amount = node('ShaderNodeMath', 'Fine texture / 15 percent', (-460, -180))
+    fine_amount.operation = 'MULTIPLY'; fine_amount.inputs[1].default_value = .15
+    link(fine, 'Fac', fine_amount, 0)
+    height = node('ShaderNodeMath', 'Ripples with irregular crests', (-220, 100))
+    height.operation = 'ADD'
+    link(wave, 'Fac', height, 0); link(fine_amount, 0, height, 1)
+    bump = node('ShaderNodeBump', 'Subtle water normals / no displacement', (10, 100))
+    bump.inputs['Distance'].default_value = .018
+    drive(bump.inputs['Strength'], 'Ripple strength')
+    link(height, 0, bump, 'Height')
+
+    broad = node('ShaderNodeTexNoise', 'Broad ocean color variation', (-980, 700))
+    broad.inputs['Scale'].default_value = .65
+    broad.inputs['Detail'].default_value = 2.
+    broad.inputs['Roughness'].default_value = .55
+    link(geometry, 'Position', broad, 'Vector')
+    ramp = node('ShaderNodeValToRGB', 'Deep blue to muted teal', (-710, 700))
+    ramp.color_ramp.elements[0].position = .18
+    ramp.color_ramp.elements[0].color = (.004, .045, .078, 1.)
+    ramp.color_ramp.elements[1].position = .82
+    ramp.color_ramp.elements[1].color = (.016, .094, .115, 1.)
+    link(broad, 'Fac', ramp, 'Fac')
+    tint = node('ShaderNodeMixRGB', 'Adjustable color variation', (-410, 700))
+    tint.blend_type = 'MIX'
+    tint.inputs[1].default_value = color(config['style']['water'])
+    drive(tint.inputs[0], 'Color variation')
+    link(ramp, 'Color', tint, 2)
+
+    shader = node('ShaderNodeBsdfPrincipled', 'Calm opaque water / EEVEE', (270, 470))
+    shader.inputs['IOR'].default_value = 1.333
+    shader.inputs['Specular IOR Level'].default_value = .4
+    drive(shader.inputs['Roughness'], 'Water roughness')
+    link(tint, 'Color', shader, 'Base Color')
+    link(bump, 'Normal', shader, 'Normal')
+    out = node('ShaderNodeOutputMaterial', 'Water surface', (650, 470))
+    link(shader, 'BSDF', out, 'Surface')
+    mat.diffuse_color = color(config['style']['water'])
+    mat['Description'] = 'Calm graphic ocean; procedural shading on one quad. Color variation is art direction, not bathymetry.'
+    bpy.data.texts.new('OCEAN / Adjust texture').write(
+        'Select Ocean, then Object Properties > Custom Properties.\n'
+        'Ripple strength: 0 is smooth; default 0.16.\n'
+        'Color variation: 0 is uniform blue; default 0.65.\n'
+        'Water roughness: higher gives softer highlights; default 0.40.\n'
+        'Drift speed: 0 stops waves; default 0.16 radians/second, follows the scene frame rate.\n'
+        'All four controls can be keyframed. One four-vertex plane, no displacement, no Ocean modifier.\n'
+        'The blue/teal variation is a graphic treatment, not measured ocean depth.\n')
+    return mat
+
+
+def focus_control(camera, rig, target_collection, config):
+    """A movable depth-of-field focus target, plus the camera's DOF settings.
+
+    Ported from the detailed NC reference scene's 'Camera Target | Aim and Focus' empty. It is
+    parented to CAMERA_RIG, so panning the rig keeps the focus plane on the aim point
+    rather than leaving it behind. Set camera.dof.enabled false to render without DOF.
+    """
+    dof = config['camera'].get('dof', {})
+    target = empty('Camera Target | Aim and Focus', target_collection, rig)
+    target.empty_display_type = 'SPHERE'
+    target.empty_display_size = 1.5
+    target.show_in_front = True
+    target['Description'] = 'Move or keyframe this empty to aim the camera and pull focus. Parented to CAMERA_RIG for pans.'
+    constraint = camera.constraints.new('DAMPED_TRACK')
+    constraint.name = 'Aim at focus target'
+    constraint.target = target
+    constraint.track_axis = 'TRACK_NEGATIVE_Z'
+    camera.data.dof.use_dof = bool(dof.get('enabled', False))
+    camera.data.dof.focus_object = target
+    camera.data.dof.aperture_fstop = float(dof.get('aperture', 5.6))
+    camera.data.dof.aperture_blades = 0
+    return target
 
 
 def build(output, render=True):
@@ -174,7 +318,7 @@ def build(output, render=True):
     muted_mat = simple_material('Water labels', '#81a6b1', .4)
     # Plain plane keeps ocean cost constant. All meaningful geography remains independent.
     ocean = mesh_object('Ocean', [[-110,-90,-.06],[110,-90,-.06],[110,90,-.06],[-110,90,-.06]], [[0,1,2,3]], water_c)
-    ocean.data.materials.append(simple_material('Ocean / matte blue', config['style']['water']))
+    ocean.data.materials.append(ocean_material(ocean, config))
     rig = empty('CAMERA_RIG', cameras_c); rig.location = config['camera']['target']
     settings = [('Orbit (degrees)', config['camera']['orbit_degrees'], -360, 360),
                 ('Tilt (degrees)', config['camera']['tilt_degrees'], 5, 89),
@@ -190,8 +334,12 @@ def build(output, render=True):
     cameras_c.objects.link(camera); camera.parent = dolly; camera.matrix_parent_inverse = Matrix.Identity(4)
     camera.rotation_euler = (math.pi/2,0,0); camera.data.sensor_fit = 'HORIZONTAL'; camera.data.clip_start = .02; camera.data.clip_end = 1000
     driver(camera.data,'lens',None,rig,'Focal length (mm)'); scene.camera = camera
+    focus_control(camera, rig, cameras_c, config)
     report = {'blender': bpy.app.version_string, 'engine': scene.render.engine,
               'gpu_backend': bpy.context.preferences.system.gpu_backend, 'panels': [], 'config_sha256': project['config_sha256']}
+    report['ocean_controls'] = {k: ocean[k] for k in ('Ripple strength', 'Color variation', 'Water roughness', 'Drift speed')}
+    report['depth_of_field'] = {'enabled': camera.data.dof.use_dof, 'aperture_fstop': camera.data.dof.aperture_fstop,
+                                'focus_object': camera.data.dof.focus_object.name if camera.data.dof.focus_object else None}
     units = config['metres_per_unit']
     for panel in project['panels']:
         data = np.load(output/'assets'/f'{panel["id"]}-terrain.npz')
@@ -275,7 +423,7 @@ def build(output, render=True):
     scene['Map attribution']=project['attribution'];scene['Map config SHA256']=project['config_sha256']
     scene['Map units']='Projected metres centered locally; horizontal metres/unit: '+str(units)
     scene['Map palette']=project['palette_type'];scene['Build status']='No prebuilt animation. Keyframe CAMERA_RIG controls.'
-    bpy.data.texts.new('START HERE / Map controls').write('Pan by moving CAMERA_RIG; keyframe Orbit, Tilt, Distance and Focal length custom properties.\nChange each MAP root Vertical exaggeration to adjust relief and draped overlays together.\nTerrain elevation attribute stores original metres. State borders, rivers, labels and ocean remain independently editable.\nSource rasters, request URLs, acquisition dates, SHA256 hashes and CRS metadata accompany this scene.\nRelief and palette are stylized. Alaska and Hawaii insets use independent scales; Hawaii includes the main islands.\nNo external add-on, driver handler, GIS library or local archive is needed to open this packed scene.\n')
+    bpy.data.texts.new('START HERE / Map controls').write('Pan by moving CAMERA_RIG; keyframe Orbit, Tilt, Distance and Focal length custom properties.\nChange each MAP root Vertical exaggeration to adjust relief and draped overlays together.\nTerrain elevation attribute stores original metres. State borders, rivers, labels and ocean remain independently editable.\nAim and focus: move or keyframe Camera Target Aim and Focus; enable camera DOF to pull focus; stop the aperture down for a deeper plane.\nOcean: select Ocean and keyframe its Ripple strength, Color variation, Water roughness and Drift speed custom properties.\nSource rasters, request URLs, acquisition dates, SHA256 hashes and CRS metadata accompany this scene.\nRelief and palette are stylized. Alaska and Hawaii insets use independent scales; Hawaii includes the main islands.\nNo external add-on, driver handler, GIS library or local archive is needed to open this packed scene.\n')
     bpy.data.texts.new('PROVENANCE / project.json').write(json.dumps(project,indent=2))
     for obj in bpy.context.selected_objects:obj.select_set(False)
     rig.select_set(True);bpy.context.view_layer.objects.active=rig
@@ -289,7 +437,7 @@ def build(output, render=True):
     if render:
         t=time.perf_counter();bpy.ops.render.render(write_still=True);report['render_seconds']=time.perf_counter()-t
     scene.render.filepath='//renders/overview.png'
-    bpy.ops.wm.save_as_mainfile(filepath=str(output/(config['slug']+'.blend')),compress=True)
+    bpy.ops.wm.save_as_mainfile(filepath=str(output/(config['slug']+'.blend')),compress=True, relative_remap=False)
     report['total_seconds']=time.perf_counter()-started
     report['terrain_vertices']=sum(p['vertices'] for p in report['panels'])
     report['file_bytes']=(output/(config['slug']+'.blend')).stat().st_size

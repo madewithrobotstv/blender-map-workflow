@@ -30,8 +30,14 @@ The current stability report records clean 5.2.2 LTS tests after intermittent fi
 
 ## Scope and next extensions
 
-The current reference is a general national relief map. It does not automatically reproduce NLCD land cover, NWI wetlands, NC county labels, the reference project's named rivers, or its ocean material. The portable importer supports attributed river lines and lake polygons; those data can be supplied as GeoJSON.
+The original release reference was a general national relief map. The detailed NC update now includes a packed template with NLCD land cover, NWI wetlands, counties, named rivers and the tuned ocean material; see [the update report](nc-update-test-report.md). The general downloader still does not automatically acquire these additional layers for every state. The portable importer supports attributed river lines and lake polygons; those data can be supplied as GeoJSON.
 
 For matching the full Cape Fear aesthetic, add a separate preparation stage for aligned categorical land-cover/wetland masks and retain separate blend controls. For close river shots, acquire a regional DEM and local vectors rather than increasing the national scene's geometry everywhere. For a later multi-resolution terrain extension, align child edges, blend height transitions, and test the actual close camera; the current skill deliberately uses independent panels rather than untested nested seams.
 
 The U.S. overview and Cape Fear scene differ in geography, resolution, camera, and overlays. Their file sizes, vertex counts, and render times are not comparable as a controlled benchmark.
+
+
+The corrected V2 update preserves printed terrain ink for rivers and state borders,
+coastal taper, shared terrain-depth nodes and 18 packed images. General maps use
+editable flat ribbons. Checked binary parts avoid a large single Git asset; each
+part and the assembled scene are hashed. See the latest NC test report.

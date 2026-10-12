@@ -96,3 +96,8 @@ Root properties change vertical exaggeration; root X/Y coordinates and scales de
 “Create a closer Wilmington shot. Choose an appropriately smaller DEM extent and denser mesh for that shot, rather than zooming into the national overview grid.”
 
 Do not claim the minimal NC preset reproduces the complete reference scene: NLCD land cover, NWI wetlands, counties, and named river datasets require additional acquisition/preparation. Their reusable design lessons are documented separately.
+
+
+## Detailed NC template mode
+
+The general setup above applies to DEM/boundary preparation. To reproduce the finished NC treatment offline with packed fonts/textures and no GIS environment, follow [detailed-map.md](detailed-map.md). Its template needs stable Blender >= 5.2 and has separate verification expectations.

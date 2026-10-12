@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "mode": "detailed-template",
+  "name": "North Carolina / Cape Fear detailed",
+  "slug": "north-carolina-detailed-overview",
+  "frame": 1,
+  "rig": {
+    "Distance": 65
+  },
+  "target_location": null,
+  "dof": {
+    "enabled": false,
+    "aperture": 5.6
+  },
+  "detail": {
+    "Land cover amount": 0.86,
+    "Wetland amount": 0.84,
+    "Lowland relief boost": 0.54
+  },
+  "ocean": {
+    "Ripple strength": 0.14,
+    "Color variation": 0.26,
+    "Water roughness": 0.26,
+    "Drift speed": 0.98
+  },
+  "render": {
+    "width": 2560,
+    "height": 1440,
+    "samples": 64
+  }
+}

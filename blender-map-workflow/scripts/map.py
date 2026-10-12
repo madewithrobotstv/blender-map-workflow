@@ -38,7 +38,12 @@ def main():
         print(json.dumps(report,indent=2))
         return 0 if all(report['libraries'].values()) and 'blender' in report else 1
     if args.output is None:parser.error('--output is required')
-    output=args.output.resolve();config=load_config(args.config)
+    output=args.output.resolve()
+    selection = json.loads((output/'project.json').read_text())['config'] if args.stage == 'verify' and (output/'project.json').exists() else json.loads(args.config.read_text())
+    if selection.get('mode') == 'detailed-template':
+        from detailed import run
+        return run(args)
+    config=load_config(args.config)
     if args.stage in ('run','prepare','build') and list(output.glob('*.blend')):
         if not args.overwrite:raise RuntimeError('Output contains a saved scene. Choose a new --output or use --overwrite to create a backup first.')
         backup=output.with_name(output.name+'.backup-'+datetime.now().strftime('%Y%m%d-%H%M%S'))

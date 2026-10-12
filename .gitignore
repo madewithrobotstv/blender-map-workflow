@@ -16,3 +16,5 @@ dist/
 *.key
 .python_history
 credentials.json
+
+# Packed V2 template parts are versioned; assembled scenes remain ignored.

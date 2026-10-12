@@ -1,5 +1,7 @@
 # Reference validation — October 12, 2026
 
+This report records the original general-map baseline. See [the detailed NC update report](nc-update-test-report.md) for the latest template, camera/ocean, privacy and relocation checks.
+
 The national map was built from the portable scripts, inspected visually, reopened, and rendered again. The same workflow was run offline from checked cached inputs. The original reference scene was not edited.
 
 ## Tested environment

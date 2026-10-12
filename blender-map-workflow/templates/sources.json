@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "snapshot_acquired": "2026-10-10",
+  "scene_revision": "2026-10-12",
+  "crs": "EPSG:3857",
+  "center_projected_m": [
+    -8883295.365303231,
+    4197907.258855422
+  ],
+  "horizontal_metres_per_unit": 45000,
+  "height_metres_to_units": 0.00045,
+  "nominal_vertical_exaggeration": 20.25,
+  "scope": "North Carolina plus neighboring context, finer Cape Fear corridor",
+  "landcover": {
+    "provider": "USGS Annual NLCD",
+    "year": 2025,
+    "native_resolution_m": 30,
+    "export_size": [
+      8192,
+      3375
+    ],
+    "display_size": [
+      4096,
+      1688
+    ],
+    "display_projected_spacing_m": 251.93952364218853,
+    "palette": "https://www.mrlc.gov/sites/default/files/docs/Annual_NLCD_LndCov.lyrx",
+    "processing": "Exact indexed palette decode; stylized linear RGB; 0.55 px Gaussian filter then 2x BOX downsample; not native 30 m display detail",
+    "scene_year_label": 2009,
+    "snapshot_data_year": 2025,
+    "year_note": "The V2 year property is 2009, but its two classification/mask textures are byte-identical to the pinned NLCD 2025/NWI input. A year label does not fetch historical data."
+  },
+  "wetlands": {
+    "provider": "U.S. Fish & Wildlife Service National Wetlands Inventory",
+    "filter": "WETLAND_TYPE IN ('Estuarine and Marine Wetland','Freshwater Emergent Wetland','Freshwater Forested/Shrub Wetland')",
+    "processing": "Aligned vegetation-wetland display mask; excludes open-water categories; not a complete wetland delineation"
+  },
+  "terrain_feathering": {
+    "state_blend_width_units": 0.35,
+    "corridor_blend_width_units": 0.18,
+    "function": "smoothstep t*t*(3-2*t)",
+    "processing": "Parent/child elevation blend baked into vertices; snapped nested grid edges; retain coarser geometry and packed source-derived normals"
+  },
+  "geography_requests": [
+    {
+      "file": "hydro_layer_1_metadata.json",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1?f=pjson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_0.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=0&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_1.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=2000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_2.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=4000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_3.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=6000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_4.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=8000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_5.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=10000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_6.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=12000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_7.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=14000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_8.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=16000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_9.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=18000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_1_page_10.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/1/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=20000&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_2_metadata.json",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/2?f=pjson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "hydro_layer_2_page_0.geojson",
+      "url": "https://services.nconemap.gov/secure/rest/services/NC1Map_Hydrography/FeatureServer/2/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&f=geojson&resultOffset=0&resultRecordCount=2000&orderByFields=objectid&maxAllowableOffset=25",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "nc_counties.geojson",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/State_County/MapServer/5/query?where=STATE%3D%2737%27&outFields=NAME%2CGEOID%2CSTATE%2CCOUNTY&returnGeometry=true&outSR=3857&maxAllowableOffset=60&f=geojson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "basin_metadata.json",
+      "url": "https://maps.deq.nc.gov/arcgis/rest/services/DEQ/NC_RiverBasins/MapServer/0?f=pjson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "river_basins.geojson",
+      "url": "https://maps.deq.nc.gov/arcgis/rest/services/DEQ/NC_RiverBasins/MapServer/0/query?where=1%3D1&outFields=%2A&outSR=3857&returnGeometry=true&maxAllowableOffset=80&f=geojson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "elevation_state_export.json",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-9407279.749509588%2C3974385.709101947%2C-8375335.460671184%2C4399577.365000389&bboxSR=3857&imageSR=3857&size=3440%2C1418&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=json",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "usgs_3dep_state.tif",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/directories/elevation_output/3DEPElevation_ImageServer/_ags_45498b8c_099b_43dc_8c81_4edea355725c.tif",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "elevation_corridor_export.json",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-8824296.035182795%2C4004657.9562249845%2C-8660656.383716684%2C4273136.462385057&bboxSR=3857&imageSR=3857&size=1400%2C2320&format=tiff&pixelType=F32&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=json",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "usgs_3dep_corridor.tif",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/directories/elevation_output/3DEPElevation_ImageServer/_ags_ba471b6f_cbce_4e84_bb02_5c0c34e183a8.tif",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "nhd_flowline_metadata.json",
+      "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6?f=pjson",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "nhd_named_rivers_page_0.geojson",
+      "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=gnis_name+IN+%28%27Cape+Fear+River%27%2C%27Haw+River%27%2C%27Deep+River%27%2C%27Black+River%27%2C%27Northeast+Cape+Fear+River%27%29+AND+ftype+IN+%28460%2C558%2C334%29&geometry=-84.5%2C33.6%2C-75.25%2C36.7&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2Cgnis_name%2Cgnis_id%2Clengthkm%2Cpermanent_identifier%2Cftype%2Cfcode%2Cmainpath%2Cflowdir%2Cinnetwork&outSR=3857&returnGeometry=true&f=geojson&maxAllowableOffset=15&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=2000",
+      "acquired": "2026-10-10"
+    },
+    {
+      "file": "nhd_named_rivers_page_1.geojson",
+      "url": "https://hydro.nationalmap.gov/arcgis/rest/services/nhd/MapServer/6/query?where=gnis_name+IN+%28%27Cape+Fear+River%27%2C%27Haw+River%27%2C%27Deep+River%27%2C%27Black+River%27%2C%27Northeast+Cape+Fear+River%27%29+AND+ftype+IN+%28460%2C558%2C334%29&geometry=-84.5%2C33.6%2C-75.25%2C36.7&geometryType=esriGeometryEnvelope&inSR=4326&spatialRel=esriSpatialRelIntersects&outFields=OBJECTID%2Cgnis_name%2Cgnis_id%2Clengthkm%2Cpermanent_identifier%2Cftype%2Cfcode%2Cmainpath%2Cflowdir%2Cinnetwork&outSR=3857&returnGeometry=true&f=geojson&maxAllowableOffset=15&orderByFields=OBJECTID&resultOffset=2000&resultRecordCount=2000",
+      "acquired": "2026-10-10"
+    }
+  ],
+  "detail_requests": {
+    "acquired_utc": "2026-10-10T16:12:53.688666+00:00",
+    "extent_epsg3857": [
+      -9407279.749509588,
+      3974429.4188541956,
+      -8375335.460671184,
+      4399577.365000389
+    ],
+    "width": 8192,
+    "height": 3375,
+    "requests": [
+      {
+        "file": "nlcd_0_0.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-9407279.749509588%2C4141591.2927907873%2C-9149293.677299988%2C4399577.365000389&width=2048&height=2048&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_0_0.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-9407279.749509588%2C4141591.2927907873%2C-9149293.677299988%2C4399577.365000389&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_2048_0.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-9149293.677299988%2C4141591.2927907873%2C-8891307.605090385%2C4399577.365000389&width=2048&height=2048&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_2048_0.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-9149293.677299988%2C4141591.2927907873%2C-8891307.605090385%2C4399577.365000389&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_4096_0.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-8891307.605090385%2C4141591.2927907873%2C-8633321.532880785%2C4399577.365000389&width=2048&height=2048&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_4096_0.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-8891307.605090385%2C4141591.2927907873%2C-8633321.532880785%2C4399577.365000389&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_6144_0.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-8633321.532880785%2C4141591.2927907873%2C-8375335.460671184%2C4399577.365000389&width=2048&height=2048&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_6144_0.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-8633321.532880785%2C4141591.2927907873%2C-8375335.460671184%2C4399577.365000389&bboxSR=3857&imageSR=3857&size=2048%2C2048&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_0_2048.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-9407279.749509588%2C3974429.4188541956%2C-9149293.677299988%2C4141591.2927907873&width=2048&height=1327&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_0_2048.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-9407279.749509588%2C3974429.4188541956%2C-9149293.677299988%2C4141591.2927907873&bboxSR=3857&imageSR=3857&size=2048%2C1327&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_2048_2048.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-9149293.677299988%2C3974429.4188541956%2C-8891307.605090385%2C4141591.2927907873&width=2048&height=1327&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_2048_2048.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-9149293.677299988%2C3974429.4188541956%2C-8891307.605090385%2C4141591.2927907873&bboxSR=3857&imageSR=3857&size=2048%2C1327&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_4096_2048.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-8891307.605090385%2C3974429.4188541956%2C-8633321.532880785%2C4141591.2927907873&width=2048&height=1327&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_4096_2048.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-8891307.605090385%2C3974429.4188541956%2C-8633321.532880785%2C4141591.2927907873&bboxSR=3857&imageSR=3857&size=2048%2C1327&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      },
+      {
+        "file": "nlcd_6144_2048.png",
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms?service=WMS&request=GetMap&version=1.1.1&layers=Land-Cover-Native_conus_year_data&styles=&srs=EPSG%3A3857&bbox=-8633321.532880785%2C3974429.4188541956%2C-8375335.460671184%2C4141591.2927907873&width=2048&height=1327&format=image%2Fpng&time=2025-01-01T00%3A00%3A00.000Z&transparent=true"
+      },
+      {
+        "file": "nwi_6144_2048.png",
+        "url": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/export?f=image&bbox=-8633321.532880785%2C3974429.4188541956%2C-8375335.460671184%2C4141591.2927907873&bboxSR=3857&imageSR=3857&size=2048%2C1327&format=png32&transparent=true&dpi=24&dynamicLayers=%5B%7B%22id%22%3A0%2C%22source%22%3A%7B%22type%22%3A%22mapLayer%22%2C%22mapLayerId%22%3A0%7D%2C%22minScale%22%3A0%2C%22maxScale%22%3A0%2C%22definitionExpression%22%3A%22WETLAND_TYPE+IN+%28%27Estuarine+and+Marine+Wetland%27%2C%27Freshwater+Emergent+Wetland%27%2C%27Freshwater+Forested%2FShrub+Wetland%27%29%22%2C%22drawingInfo%22%3A%7B%22renderer%22%3A%7B%22type%22%3A%22simple%22%2C%22symbol%22%3A%7B%22type%22%3A%22esriSFS%22%2C%22style%22%3A%22esriSFSSolid%22%2C%22color%22%3A%5B255%2C255%2C255%2C255%5D%2C%22outline%22%3A%7B%22type%22%3A%22esriSLS%22%2C%22style%22%3A%22esriSLSNull%22%2C%22color%22%3A%5B0%2C0%2C0%2C0%5D%2C%22width%22%3A0%7D%7D%7D%7D%7D%5D"
+      }
+    ],
+    "land_cover_year": 2025,
+    "source_pixel_spacing_metres": 30,
+    "display_pixel_spacing_projected_metres": 125.96976182109427,
+    "land_cover_transport": "WMS native indexed-palette rendering, 2025 time explicitly selected; server-side WCS time-selection error",
+    "wetland_selection": "WETLAND_TYPE IN ('Estuarine and Marine Wetland','Freshwater Emergent Wetland','Freshwater Forested/Shrub Wetland')",
+    "wetland_transport": "NWI rasterized polygon mask; min display scale respected using export dpi=24",
+    "metadata_sources": {
+      "Annual_NLCD_LndCov.lyrx": "https://www.mrlc.gov/sites/default/files/docs/Annual_NLCD_LndCov.lyrx",
+      "nwi_service.json": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer?f=pjson",
+      "nwi_layer.json": "https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer/0?f=pjson"
+    }
+  },
+  "public_data_notice": "Government geographic data is openly available. Dataset-specific notices remain applicable. This is a cartographic visualization, not observed water levels, bathymetry, or a regulatory wetland assessment.",
+  "visual_version": "V2",
+  "line_treatment": "Printed map ink in terrain materials; original raised state boundaries and rivers are hidden in archive collections.",
+  "terrain_depth_treatment": "Shared geometry-node controls, packed archived USGS height/relief fields, state/corridor subdivision and coast-distance taper masks. Channel depth is stylized, not observed bathymetry.",
+  "typography": {
+    "public_font": "Golos Text Medium",
+    "license": "SIL Open Font License 1.1",
+    "source_font_substitution": "DIN Alternate Bold in the artist reference is marked preview/print embedding; public editable template substitutes Golos."
+  }
+}

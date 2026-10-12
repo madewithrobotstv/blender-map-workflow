@@ -69,3 +69,12 @@ For land cover/wetlands, reproject/resample data to the same DEM grid and pack t
 - [Blender Python API](https://docs.blender.org/api/current/)
 
 Source requests, download dates, and SHA256 hashes are recorded per run. Provider data may change between uncached runs. Retain checked caches or source assets to preserve the exact inputs; a URL alone does not pin a changing service.
+
+
+## General camera and ocean controls
+
+`camera.dof` accepts `{"enabled": true, "aperture": 5.6}`. It defaults to disabled to preserve readable wide-map typography; the shared aim/focus null always exists. Its Damped Track constraint aims the camera at the same object used for focus.
+
+`style.ocean` accepts `ripple_strength`, `color_variation`, `water_roughness` and `drift_speed` (defaults 0.16, 0.65, 0.40 and 0.16). Ripples are procedural bump shading on one quad; drift follows the scene frame rate. Controls are editable/keyframable object properties.
+
+The detailed NC presets use a separate configuration shape with `mode: detailed-template`. See [detailed-map.md](detailed-map.md); do not mix panel/DEM configuration into that fixed snapshot mode.

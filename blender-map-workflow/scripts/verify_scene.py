@@ -11,6 +11,7 @@ from mathutils import Vector
 
 sys.path.insert(0,str(Path(__file__).resolve().parent))
 from common import sample_surface, sha256, write_json
+from line_profiles import is_flat
 
 
 def verify(output, render=False):
@@ -24,18 +25,38 @@ def verify(output, render=False):
     if (output/'config.json').exists():
         check('effective_config_hash_matches',sha256(output/'config.json')==project['config_sha256'])
     check('one_perspective_camera',sum(o.type=='CAMERA' for o in scene.objects)==1 and scene.camera.data.type=='PERSP')
+    target=bpy.data.objects.get('Camera Target | Aim and Focus')
+    check('shared_aim_and_focus',target is not None and scene.camera.data.dof.focus_object==target and any(c.type=='DAMPED_TRACK' and c.target==target for c in scene.camera.constraints))
+    ocean=bpy.data.objects.get('Ocean')
+    check('ocean_controls_present',ocean is not None and all(k in ocean for k in ('Ripple strength','Color variation','Water roughness','Drift speed')))
+    if target:
+        old=target.location.copy();target.location.x+=.25;target.update_tag();bpy.context.view_layer.update()
+        direction=-(scene.camera.matrix_world.to_quaternion()@Vector((0,0,1)))
+        toward=(target.matrix_world.translation-scene.camera.matrix_world.translation).normalized()
+        check('focus_null_changes_camera_aim',direction.dot(toward)>.9999)
+        target.location=old;target.update_tag();bpy.context.view_layer.update()
+
     driver_curves=[]
     for datablock in list(bpy.data.objects)+list(bpy.data.cameras):
         if datablock.animation_data:driver_curves.extend(datablock.animation_data.drivers)
     scene.frame_set(1);bpy.context.view_layer.update()
+    if ocean:
+        wave=next(n for n in ocean.data.materials[0].node_tree.nodes if n.type=='TEX_WAVE')
+        phase=wave.inputs['Phase Offset'].default_value
+        scene.frame_set(25);bpy.context.view_layer.update()
+        expected=24*scene.render.fps_base/scene.render.fps*ocean['Drift speed']
+        check('ocean_drift_follows_frame_rate',abs(wave.inputs['Phase Offset'].default_value-phase-expected)<1e-5)
+        scene.frame_set(1);bpy.context.view_layer.update()
     check('drivers_valid',len(driver_curves)>=5 and all(f.driver.is_valid for f in driver_curves))
     images=[i for i in bpy.data.images if i.type=='IMAGE' and i.source=='FILE']
     check('all_images_packed',len(images)==len(project['panels']) and all(i.packed_file for i in images))
     check('no_absolute_asset_paths',all(i.filepath.startswith('//') for i in images))
+    check('no_absolute_packed_paths',all(p.filepath.startswith('//') for i in images for p in i.packed_files))
     boundaries=[o for o in bpy.data.collections['02_BOUNDARIES'].objects if o.type=='CURVE']
     expected=[f for p in project['panels'] for f in p['state_fips']]
     check('boundaries_complete',sorted(o.get('Census STATEFP') for o in boundaries)==sorted(expected))
     hydro=bpy.data.collections['03_HYDROGRAPHY'].objects
+    check('flat_geographic_strokes',all(is_flat(o.data) for o in list(boundaries)+list(hydro) if o.type=='CURVE'))
     vector_checks=True
     for panel in project['panels']:
         vector_file=output/'assets'/f'{panel["id"]}-vectors.json'
