@@ -65,8 +65,8 @@ The separate regional importer test used selected [USGS NHD flowlines](https://w
 
 - [Workflow review and improvements](docs/workflow-review.md)
 - [Reference test report](docs/test-report.md)
-- Generated reference scene: `outputs/united-states/united-states.blend`
-- Generated preview: `outputs/united-states/renders/overview.png`
+- [Reference preview image](docs/united-states-preview.png)
+- Reference scene: built locally by the workflow, not included in this repository
 
 Runtime output, source cache, and virtual environments are excluded from version control. The skill package contains no personal installation paths, source project files, or machine-specific dependencies. Only Blender 5.2.2 LTS/macOS Metal is tested end to end; other supported environments should run their own saved-file and visual checks.
 
