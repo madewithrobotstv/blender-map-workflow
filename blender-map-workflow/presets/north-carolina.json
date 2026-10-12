@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "name": "North Carolina",
+  "slug": "north-carolina",
+  "boundary_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+  "elevation_service": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "metres_per_unit": 20000,
+  "max_missing_land_fraction": 0.02,
+  "panels": [{"id": "north-carolina", "title": "North Carolina", "states": ["37"], "crs": "EPSG:32119", "texture_width": 2400, "mesh_width": 900, "relief": 12, "scale": 1, "position": [0, 0]}],
+  "style": {"palette": [[0, "#b5bd83"], [250, "#8caa73"], [600, "#6e8b61"], [1000, "#bd9c68"], [1800, "#967251"], [2500, "#ded5b7"]], "water": "#173c50", "boundary": "#f1e6c6", "text": "#f3e8cf", "contours": false, "contour_interval_m": 200, "boundary_width": 0.01},
+  "camera": {"orbit_degrees": 0, "tilt_degrees": 60, "distance": 65, "focal_length_mm": 48, "target": [0, 0, 0]},
+  "render": {"width": 2560, "height": 1440, "samples": 64},
+  "labels": [],
+  "vector_layers": []
+}

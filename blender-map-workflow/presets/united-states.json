@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "name": "United States",
+  "slug": "united-states",
+  "boundary_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+  "elevation_service": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+  "metres_per_unit": 100000,
+  "max_missing_land_fraction": 0.02,
+  "panels": [
+    {
+      "id": "conus",
+      "title": "Contiguous United States",
+      "exclude_states": ["02", "15", "60", "66", "69", "72", "78"],
+      "crs": "EPSG:5070",
+      "texture_width": 2400,
+      "mesh_width": 900,
+      "relief": 45,
+      "scale": 1,
+      "position": [0, 2.0]
+    },
+    {
+      "id": "alaska",
+      "title": "Alaska",
+      "states": ["02"],
+      "crs": "EPSG:3338",
+      "texture_width": 1400,
+      "mesh_width": 480,
+      "relief": 30,
+      "scale": 0.38,
+      "position": [-17, -13.5]
+    },
+    {
+      "id": "hawaii",
+      "title": "Hawaii · main islands",
+      "states": ["15"],
+      "clip_lonlat": [-161, 18.5, -154, 22.6],
+      "crs": "EPSG:32605",
+      "texture_width": 900,
+      "mesh_width": 420,
+      "relief": 6,
+      "scale": 1,
+      "position": [-5, -13.7]
+    }
+  ],
+  "style": {
+    "palette": [[0, "#b5bd83"], [350, "#8caa73"], [900, "#6e8b61"], [1600, "#bd9c68"], [2500, "#967251"], [3800, "#ded5b7"], [6200, "#f0ecdb"]],
+    "water": "#173c50",
+    "boundary": "#f1e6c6",
+    "text": "#f3e8cf",
+    "contours": false,
+    "contour_interval_m": 500,
+    "boundary_width": 0.008
+  },
+  "camera": {"orbit_degrees": 0, "tilt_degrees": 64, "distance": 92, "focal_length_mm": 48, "target": [0, -1.8, 0]},
+  "render": {"width": 2560, "height": 1600, "samples": 64},
+  "labels": [
+    {"panel": "conus", "text": "PACIFIC OCEAN", "lon": -126, "lat": 37, "size": 0.36, "water": true},
+    {"panel": "conus", "text": "ATLANTIC OCEAN", "lon": -69.4, "lat": 34.3, "size": 0.36, "water": true},
+    {"panel": "conus", "text": "GULF OF MEXICO", "lon": -90, "lat": 26.4, "size": 0.32, "water": true},
+    {"panel": "conus", "text": "ROCKY MOUNTAINS", "lon": -109, "lat": 42, "size": 0.28},
+    {"panel": "conus", "text": "GREAT PLAINS", "lon": -100, "lat": 39, "size": 0.28},
+    {"panel": "conus", "text": "APPALACHIANS", "lon": -82, "lat": 37, "size": 0.25}
+  ],
+  "vector_layers": []
+}

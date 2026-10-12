@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender Map Workflow"
+  short_description: "Build portable, accurate Blender relief maps"
+  default_prompt: "Use $blender-map-workflow to create an editable United States relief map from real elevation and boundary data."
