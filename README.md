@@ -77,3 +77,7 @@ The standalone skill archive contains the single `blender-map-workflow/` folder.
 Upload the contents of the clean export at `dist/github-upload/`, or extract `dist/blender-map-workflow-source.zip`. These contain the skill, instructions, code, tests, source credits, and a preview with renderer metadata removed. The standalone skill archive is `dist/blender-map-workflow-skill.zip`.
 
 Local Python environments, source caches, rendered scenes, logs, backups, and compiled Python files remain in the working folder and are excluded from the export. `.gitignore` also excludes these runtime files and common credential-file types. See the [privacy review](docs/privacy-review.md) for the scan scope and results. The public package contains no Git history or local author configuration; GitHub commit identity comes from the account/configuration used when posting it.
+
+## License
+
+Released under the [MIT License](LICENSE). The workflow's code, instructions, and styling are Made With Robots' own work; the underlying elevation and boundary data stays with its providers' terms, described in [Data sources and credits](#data-sources-and-credits).
