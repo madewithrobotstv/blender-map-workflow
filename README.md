@@ -70,13 +70,11 @@ The separate regional importer test used selected [USGS NHD flowlines](https://w
 
 Runtime output, source cache, and virtual environments are excluded from version control. The skill package contains no personal installation paths, source project files, or machine-specific dependencies. Only Blender 5.2.2 LTS/macOS Metal is tested end to end; other supported environments should run their own saved-file and visual checks.
 
-The standalone skill archive contains the single `blender-map-workflow/` folder. The source archive also includes this guide, the review, tests, and the example preview for sharing online. To run the focused tests after setup: `.venv/bin/python -m unittest discover -s tests -v`.
+To run the focused tests after setup: `.venv/bin/python -m unittest discover -s tests -v`.
 
-## Public upload
+## What is not in this repository
 
-Upload the contents of the clean export at `dist/github-upload/`, or extract `dist/blender-map-workflow-source.zip`. These contain the skill, instructions, code, tests, source credits, and a preview with renderer metadata removed. The standalone skill archive is `dist/blender-map-workflow-skill.zip`.
-
-Local Python environments, source caches, rendered scenes, logs, backups, and compiled Python files remain in the working folder and are excluded from the export. `.gitignore` also excludes these runtime files and common credential-file types. See the [privacy review](docs/privacy-review.md) for the scan scope and results. The public package contains no Git history or local author configuration; GitHub commit identity comes from the account/configuration used when posting it.
+The skill, instructions, code, tests, source credits, and preview are all here. Local Python environments, source caches, rendered scenes, logs, backups, compiled Python files, and the original reference project's assets are excluded, and `.gitignore` also covers common credential-file types. See the [privacy review](docs/privacy-review.md) for the scan scope and results.
 
 ## License
 
